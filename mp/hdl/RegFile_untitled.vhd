@@ -22,7 +22,7 @@ ENTITY RegFile IS
       SrcB        : IN     LC3b_reg;
       StoreMuxout : IN     LC3b_reg;
       clk         : IN     std_logic;
-      dest        : IN     LC3b_reg;
+      destMuxout  : IN     LC3b_reg;
       RFAout      : OUT    LC3b_word;
       RFBout      : OUT    LC3b_word
    );
@@ -49,7 +49,7 @@ BEGIN
 		RFBOUT <= RAM(RADDR2) AFTER DELAY_REGFILE_READ;
 	END PROCESS VHDL_REGFILE_READ;
 	-------------------------------------------------------------------
-	VHDL_REGFILE_WRITE: PROCESS(CLK, RFMUXOUT, REGWRITE, DEST, RESET_L)
+	VHDL_REGFILE_WRITE: PROCESS(CLK, RFMUXOUT, REGWRITE, destMuxout, RESET_L)
 	-------------------------------------------------------------------
 	VARIABLE WADDR : INTEGER RANGE 0 TO 7;
 	BEGIN
@@ -65,7 +65,7 @@ BEGIN
 			RAM(7) <= "0000000000000000";
 		END IF;
 		-- WRITE VALUE TO REGISTER FILE ON RISING EDGE OF CLOCK IF REGWRITE ACTIVE
-		WADDR := TO_INTEGER(UNSIGNED('0' & DEST));
+		WADDR := TO_INTEGER(UNSIGNED('0' & destMuxout));
 		IF (CLK'EVENT AND (CLK = '1') AND (CLK'LAST_VALUE = '0')) THEN
 			IF (REGWRITE = '1') THEN
 				RAM(WADDR) <= RFMUXOUT;

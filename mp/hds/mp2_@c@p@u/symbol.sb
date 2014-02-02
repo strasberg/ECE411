@@ -375,23 +375,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "/home/strasbe1/ece411/ece411_given/hdl"
+value "/home/strasbe1/ECE411/mp/hdl"
 )
 (vvPair
 variable "HDSDir"
-value "/home/strasbe1/ece411/ece411_given/hds"
+value "/home/strasbe1/ECE411/mp/hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/strasbe1/ece411/ece411_given/hds/mp2_@c@p@u/symbol.sb.info"
+value "/home/strasbe1/ECE411/mp/hds/mp2_@c@p@u/symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/strasbe1/ece411/ece411_given/hds/mp2_@c@p@u/symbol.sb.user"
+value "/home/strasbe1/ECE411/mp/hds/mp2_@c@p@u/symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "/home/strasbe1/ece411/ece411_given/hds"
+value "/home/strasbe1/ECE411/mp/hds"
 )
 (vvPair
 variable "appl"
@@ -407,27 +407,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "/home/strasbe1/ece411/ece411_given/hds/mp2_@c@p@u"
+value "/home/strasbe1/ECE411/mp/hds/mp2_@c@p@u"
 )
 (vvPair
 variable "d_logical"
-value "/home/strasbe1/ece411/ece411_given/hds/mp2_CPU"
+value "/home/strasbe1/ECE411/mp/hds/mp2_CPU"
 )
 (vvPair
 variable "date"
-value "02/01/14"
+value "02/02/14"
 )
 (vvPair
 variable "day"
-value "Sat"
+value "Sun"
 )
 (vvPair
 variable "day_long"
-value "Saturday"
+value "Sunday"
 )
 (vvPair
 variable "dd"
-value "01"
+value "02"
 )
 (vvPair
 variable "entity_name"
@@ -455,7 +455,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "gelib-057-26.ews.illinois.edu"
+value "gelib-057-16.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -487,11 +487,11 @@ value "February"
 )
 (vvPair
 variable "p"
-value "/home/strasbe1/ece411/ece411_given/hds/mp2_@c@p@u/symbol.sb"
+value "/home/strasbe1/ECE411/mp/hds/mp2_@c@p@u/symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "/home/strasbe1/ece411/ece411_given/hds/mp2_CPU/symbol.sb"
+value "/home/strasbe1/ECE411/mp/hds/mp2_CPU/symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -547,7 +547,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "17:51:57"
+value "13:51:44"
 )
 (vvPair
 variable "unit"
@@ -1378,7 +1378,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 379,0
+lastUid 494,0
 okToSyncOnLoad 1
 activeModelName "Symbol"
 )

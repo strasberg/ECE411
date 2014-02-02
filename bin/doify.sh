@@ -38,7 +38,7 @@ then
 fi
 
 rm -f "$NAME.vhd"
-$HOME/ece411/bin/LC3bAssembler "$1" -v
+$HOME/ECE411/bin/LC3bAssembler "$1" -v
 cat "$NAME.vhd" &> /dev/null &&
 (
 (

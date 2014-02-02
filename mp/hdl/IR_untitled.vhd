@@ -22,11 +22,11 @@ ENTITY IR IS
       Opcode     : OUT    LC3b_opcode;
       SrcA       : OUT    LC3b_reg;
       SrcB       : OUT    LC3b_reg;
-      dest       : OUT    LC3b_reg;
       index6     : OUT    LC3b_index6;
       offset9    : OUT    LC3b_offset9;
       Imm5sel    : OUT    std_logic;
-      immediate5 : OUT    LC3b_imm5
+      immediate5 : OUT    LC3b_imm5;
+      dest       : OUT    LC3b_reg
    );
 
 -- Declarations
