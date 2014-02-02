@@ -25,7 +25,7 @@ appVersion "2012.1 (Build 6)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
-suid 4,0
+suid 8,0
 usingSuid 1
 emptyRow *1 (LEmptyRow
 )
@@ -69,11 +69,11 @@ port (LogicalPort
 decl (Decl
 n "ADJ9out"
 t "LC3b_word"
-o 44
-suid 1,0
+o 31
+suid 5,0
 )
 )
-uid 71,0
+uid 179,0
 )
 *15 (LogPort
 port (LogicalPort
@@ -81,33 +81,35 @@ m 1
 decl (Decl
 n "BRaddout"
 t "LC3b_word"
-o 46
-suid 2,0
+o 34
+suid 6,0
 )
 )
-uid 73,0
+uid 181,0
 )
 *16 (LogPort
 port (LogicalPort
+lang 11
 decl (Decl
-n "PCout"
-t "LC3b_word"
-o 41
-suid 3,0
+n "PCOUT"
+t "LC3B_word"
+o 47
+suid 7,0
 )
 )
-uid 75,0
+uid 183,0
 )
 *17 (LogPort
 port (LogicalPort
+lang 11
 decl (Decl
 n "clk"
 t "std_logic"
-o 16
-suid 4,0
+o 20
+suid 8,0
 )
 )
-uid 77,0
+uid 185,0
 )
 ]
 )
@@ -163,25 +165,25 @@ uid 99,0
 litem &14
 pos 0
 dimension 20
-uid 72,0
+uid 180,0
 )
 *24 (MRCItem
 litem &15
 pos 1
 dimension 20
-uid 74,0
+uid 182,0
 )
 *25 (MRCItem
 litem &16
 pos 2
 dimension 20
-uid 76,0
+uid 184,0
 )
 *26 (MRCItem
 litem &17
 pos 3
 dimension 20
-uid 78,0
+uid 186,0
 )
 ]
 )
@@ -412,23 +414,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "/home/strasbe1/ece411/ece411_given/hdl"
+value "/home/strasbe1/ECE411/mp/hdl"
 )
 (vvPair
 variable "HDSDir"
-value "/home/strasbe1/ece411/ece411_given/hds"
+value "/home/strasbe1/ECE411/mp/hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/strasbe1/ece411/ece411_given/hds/@b@radd/interface.info"
+value "/home/strasbe1/ECE411/mp/hds/@b@radd/interface.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/strasbe1/ece411/ece411_given/hds/@b@radd/interface.user"
+value "/home/strasbe1/ECE411/mp/hds/@b@radd/interface.user"
 )
 (vvPair
 variable "SourceDir"
-value "/home/strasbe1/ece411/ece411_given/hds"
+value "/home/strasbe1/ECE411/mp/hds"
 )
 (vvPair
 variable "appl"
@@ -444,27 +446,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "/home/strasbe1/ece411/ece411_given/hds/@b@radd"
+value "/home/strasbe1/ECE411/mp/hds/@b@radd"
 )
 (vvPair
 variable "d_logical"
-value "/home/strasbe1/ece411/ece411_given/hds/BRadd"
+value "/home/strasbe1/ECE411/mp/hds/BRadd"
 )
 (vvPair
 variable "date"
-value "01/27/14"
+value "02/02/14"
 )
 (vvPair
 variable "day"
-value "Mon"
+value "Sun"
 )
 (vvPair
 variable "day_long"
-value "Monday"
+value "Sunday"
 )
 (vvPair
 variable "dd"
-value "27"
+value "02"
 )
 (vvPair
 variable "entity_name"
@@ -492,7 +494,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "gelib-057-21.ews.illinois.edu"
+value "gelib-057-16.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -508,7 +510,7 @@ value "$HDS_PROJECT_DIR/compile"
 )
 (vvPair
 variable "mm"
-value "01"
+value "02"
 )
 (vvPair
 variable "module_name"
@@ -516,19 +518,19 @@ value "BRadd"
 )
 (vvPair
 variable "month"
-value "Jan"
+value "Feb"
 )
 (vvPair
 variable "month_long"
-value "January"
+value "February"
 )
 (vvPair
 variable "p"
-value "/home/strasbe1/ece411/ece411_given/hds/@b@radd/interface"
+value "/home/strasbe1/ECE411/mp/hds/@b@radd/interface"
 )
 (vvPair
 variable "p_logical"
-value "/home/strasbe1/ece411/ece411_given/hds/BRadd/interface"
+value "/home/strasbe1/ECE411/mp/hds/BRadd/interface"
 )
 (vvPair
 variable "package_name"
@@ -584,7 +586,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "22:16:10"
+value "14:36:01"
 )
 (vvPair
 variable "unit"
@@ -619,10 +621,10 @@ optionalChildren [
 uid 8,0
 optionalChildren [
 *60 (CptPort
-uid 51,0
+uid 159,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 52,0
+uid 160,0
 ro 90
 va (VaSet
 vasetType 1
@@ -631,11 +633,11 @@ fg "0,65535,0"
 xt "14250,10625,15000,11375"
 )
 tg (CPTG
-uid 53,0
+uid 161,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 54,0
+uid 162,0
 va (VaSet
 font "courier,8,0"
 )
@@ -646,27 +648,25 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 55,0
+uid 163,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,1800,59500,2700"
-st "ADJ9out  : IN     LC3b_word  ;"
 )
 thePort (LogicalPort
 decl (Decl
 n "ADJ9out"
 t "LC3b_word"
-o 44
-suid 1,0
+o 31
+suid 5,0
 )
 )
 )
 *61 (CptPort
-uid 56,0
+uid 164,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 57,0
+uid 165,0
 ro 90
 va (VaSet
 vasetType 1
@@ -675,11 +675,11 @@ fg "0,65535,0"
 xt "26000,6625,26750,7375"
 )
 tg (CPTG
-uid 58,0
+uid 166,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 59,0
+uid 167,0
 va (VaSet
 font "courier,8,0"
 )
@@ -691,28 +691,26 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 60,0
+uid 168,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,4500,58500,5400"
-st "BRaddout : OUT    LC3b_word "
 )
 thePort (LogicalPort
 m 1
 decl (Decl
 n "BRaddout"
 t "LC3b_word"
-o 46
-suid 2,0
+o 34
+suid 6,0
 )
 )
 )
 *62 (CptPort
-uid 61,0
+uid 169,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 62,0
+uid 170,0
 ro 90
 va (VaSet
 vasetType 1
@@ -721,42 +719,41 @@ fg "0,65535,0"
 xt "14250,6625,15000,7375"
 )
 tg (CPTG
-uid 63,0
+uid 171,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 64,0
+uid 172,0
 va (VaSet
 font "courier,8,0"
 )
 xt "16000,6550,18500,7450"
-st "PCout"
+st "PCOUT"
 blo "16000,7250"
 tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 65,0
+uid 173,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,2700,59500,3600"
-st "PCout    : IN     LC3b_word  ;"
 )
 thePort (LogicalPort
+lang 11
 decl (Decl
-n "PCout"
-t "LC3b_word"
-o 41
-suid 3,0
+n "PCOUT"
+t "LC3B_word"
+o 47
+suid 7,0
 )
 )
 )
 *63 (CptPort
-uid 66,0
+uid 174,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 67,0
+uid 175,0
 ro 90
 va (VaSet
 vasetType 1
@@ -765,11 +762,11 @@ fg "0,65535,0"
 xt "14250,11625,15000,12375"
 )
 tg (CPTG
-uid 68,0
+uid 176,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 69,0
+uid 177,0
 va (VaSet
 font "courier,8,0"
 )
@@ -780,19 +777,18 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 70,0
+uid 178,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,3600,59500,4500"
-st "clk      : IN     std_logic  ;"
 )
 thePort (LogicalPort
+lang 11
 decl (Decl
 n "clk"
 t "std_logic"
-o 16
-suid 4,0
+o 20
+suid 8,0
 )
 )
 )
@@ -840,7 +836,7 @@ uid 15,0
 va (VaSet
 font "courier,8,0"
 )
-xt "-9500,5000,1000,5900"
+xt "-12500,4500,-2000,5400"
 st "Generic Declarations"
 )
 header "Generic Declarations"
@@ -1506,6 +1502,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 135,0
+lastUid 186,0
 activeModelName "Symbol:CDM"
 )

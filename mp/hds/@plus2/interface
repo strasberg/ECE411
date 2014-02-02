@@ -25,7 +25,7 @@ appVersion "2012.1 (Build 6)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
-suid 3,0
+suid 6,0
 usingSuid 1
 emptyRow *1 (LEmptyRow
 )
@@ -66,14 +66,15 @@ tm "EolColHdrMgr"
 )
 *14 (LogPort
 port (LogicalPort
+lang 11
 decl (Decl
-n "PCout"
-t "LC3b_word"
-o 41
-suid 1,0
+n "PCOUT"
+t "LC3B_word"
+o 47
+suid 4,0
 )
 )
-uid 66,0
+uid 167,0
 )
 *15 (LogPort
 port (LogicalPort
@@ -81,22 +82,23 @@ m 1
 decl (Decl
 n "PCPlus2out"
 t "LC3b_word"
-o 45
-suid 2,0
+o 46
+suid 5,0
 )
 )
-uid 68,0
+uid 169,0
 )
 *16 (LogPort
 port (LogicalPort
+lang 11
 decl (Decl
 n "clk"
 t "std_logic"
-o 16
-suid 3,0
+o 20
+suid 6,0
 )
 )
-uid 70,0
+uid 171,0
 )
 ]
 )
@@ -152,19 +154,19 @@ uid 92,0
 litem &14
 pos 0
 dimension 20
-uid 67,0
+uid 168,0
 )
 *23 (MRCItem
 litem &15
 pos 1
 dimension 20
-uid 69,0
+uid 170,0
 )
 *24 (MRCItem
 litem &16
 pos 2
 dimension 20
-uid 71,0
+uid 172,0
 )
 ]
 )
@@ -395,23 +397,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "/home/strasbe1/ece411/ece411_given/hdl"
+value "/home/strasbe1/ECE411/mp/hdl"
 )
 (vvPair
 variable "HDSDir"
-value "/home/strasbe1/ece411/ece411_given/hds"
+value "/home/strasbe1/ECE411/mp/hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/strasbe1/ece411/ece411_given/hds/@plus2/interface.info"
+value "/home/strasbe1/ECE411/mp/hds/@plus2/interface.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/strasbe1/ece411/ece411_given/hds/@plus2/interface.user"
+value "/home/strasbe1/ECE411/mp/hds/@plus2/interface.user"
 )
 (vvPair
 variable "SourceDir"
-value "/home/strasbe1/ece411/ece411_given/hds"
+value "/home/strasbe1/ECE411/mp/hds"
 )
 (vvPair
 variable "appl"
@@ -427,27 +429,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "/home/strasbe1/ece411/ece411_given/hds/@plus2"
+value "/home/strasbe1/ECE411/mp/hds/@plus2"
 )
 (vvPair
 variable "d_logical"
-value "/home/strasbe1/ece411/ece411_given/hds/Plus2"
+value "/home/strasbe1/ECE411/mp/hds/Plus2"
 )
 (vvPair
 variable "date"
-value "01/27/14"
+value "02/02/14"
 )
 (vvPair
 variable "day"
-value "Mon"
+value "Sun"
 )
 (vvPair
 variable "day_long"
-value "Monday"
+value "Sunday"
 )
 (vvPair
 variable "dd"
-value "27"
+value "02"
 )
 (vvPair
 variable "entity_name"
@@ -475,7 +477,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "gelib-057-21.ews.illinois.edu"
+value "gelib-057-16.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -491,7 +493,7 @@ value "$HDS_PROJECT_DIR/compile"
 )
 (vvPair
 variable "mm"
-value "01"
+value "02"
 )
 (vvPair
 variable "module_name"
@@ -499,19 +501,19 @@ value "Plus2"
 )
 (vvPair
 variable "month"
-value "Jan"
+value "Feb"
 )
 (vvPair
 variable "month_long"
-value "January"
+value "February"
 )
 (vvPair
 variable "p"
-value "/home/strasbe1/ece411/ece411_given/hds/@plus2/interface"
+value "/home/strasbe1/ECE411/mp/hds/@plus2/interface"
 )
 (vvPair
 variable "p_logical"
-value "/home/strasbe1/ece411/ece411_given/hds/Plus2/interface"
+value "/home/strasbe1/ECE411/mp/hds/Plus2/interface"
 )
 (vvPair
 variable "package_name"
@@ -567,7 +569,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "22:15:26"
+value "14:36:00"
 )
 (vvPair
 variable "unit"
@@ -602,55 +604,54 @@ optionalChildren [
 uid 8,0
 optionalChildren [
 *58 (CptPort
-uid 51,0
+uid 152,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 52,0
+uid 153,0
 ro 270
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "19000,7625,19750,8375"
+xt "19000,6625,19750,7375"
 )
 tg (CPTG
-uid 53,0
+uid 154,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 54,0
+uid 155,0
 va (VaSet
 font "courier,8,0"
 )
-xt "15500,7550,18000,8450"
-st "PCout"
+xt "15500,6550,18000,7450"
+st "PCOUT"
 ju 2
-blo "18000,8250"
+blo "18000,7250"
 tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 55,0
+uid 156,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,1800,60500,2700"
-st "PCout      : IN     LC3b_word  ;"
 )
 thePort (LogicalPort
+lang 11
 decl (Decl
-n "PCout"
-t "LC3b_word"
-o 41
-suid 1,0
+n "PCOUT"
+t "LC3B_word"
+o 47
+suid 4,0
 )
 )
 )
 *59 (CptPort
-uid 56,0
+uid 157,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 57,0
+uid 158,0
 ro 270
 va (VaSet
 vasetType 1
@@ -659,11 +660,11 @@ fg "0,65535,0"
 xt "14250,6625,15000,7375"
 )
 tg (CPTG
-uid 58,0
+uid 159,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 59,0
+uid 160,0
 va (VaSet
 font "courier,8,0"
 )
@@ -674,28 +675,26 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 60,0
+uid 161,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,3600,59500,4500"
-st "PCPlus2out : OUT    LC3b_word "
 )
 thePort (LogicalPort
 m 1
 decl (Decl
 n "PCPlus2out"
 t "LC3b_word"
-o 45
-suid 2,0
+o 46
+suid 5,0
 )
 )
 )
 *60 (CptPort
-uid 61,0
+uid 162,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 62,0
+uid 163,0
 ro 90
 va (VaSet
 vasetType 1
@@ -704,11 +703,11 @@ fg "0,65535,0"
 xt "14250,7625,15000,8375"
 )
 tg (CPTG
-uid 63,0
+uid 164,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 64,0
+uid 165,0
 va (VaSet
 font "courier,8,0"
 )
@@ -719,19 +718,18 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 65,0
+uid 166,0
 va (VaSet
 font "courier,8,0"
 )
-xt "44000,2700,60500,3600"
-st "clk        : IN     std_logic  ;"
 )
 thePort (LogicalPort
+lang 11
 decl (Decl
 n "clk"
 t "std_logic"
-o 16
-suid 3,0
+o 20
+suid 6,0
 )
 )
 )
@@ -1445,6 +1443,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 128,0
+lastUid 172,0
 activeModelName "Symbol:CDM"
 )
