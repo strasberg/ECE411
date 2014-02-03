@@ -1,5 +1,5 @@
 SEGMENT  CodeSegment:
-   LDR  R1, R0, INPUT     ; R1 <= Number to do factorial for
+   LDB  R1, R0, 2     ; R1 <= Number to do factorial for
    ADD  R3, R0, R1        ; R3 <= R0 + R1 
    NOT  R2, R0            ; R2 <= -1
 
@@ -21,5 +21,5 @@ SAVE_RES:
 HALT:                     ; Infinite loop to keep the processor
    BRnzp HALT             ; from trying to execute the data below.
 
-INPUT:   DATA2 4x0005     ; input for number to find factorial of
+INPUT:   DATA2 4xff05     ; input for number to find factorial of
 RESULT:  DATA2 4x0000     ; place to store result
