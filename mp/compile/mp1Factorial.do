@@ -12,8 +12,8 @@ force /start_h 0 @ 100
 
 echo "Done initializing processor, loading ../testcode/mp1Factorial.asm program code."
 run 5
-change /mp2_cpu/dram/vhdl_memory/mem(0) X"02"
-change /mp2_cpu/dram/vhdl_memory/mem(1) X"22"
+change /mp2_cpu/dram/vhdl_memory/mem(0) X"0E"
+change /mp2_cpu/dram/vhdl_memory/mem(1) X"A2"
 change /mp2_cpu/dram/vhdl_memory/mem(2) X"01"
 change /mp2_cpu/dram/vhdl_memory/mem(3) X"16"
 change /mp2_cpu/dram/vhdl_memory/mem(4) X"3F"
@@ -40,7 +40,7 @@ change /mp2_cpu/dram/vhdl_memory/mem(24) X"FF"
 change /mp2_cpu/dram/vhdl_memory/mem(25) X"0F"
 change /mp2_cpu/dram/vhdl_memory/mem(26) X"05"
 change /mp2_cpu/dram/vhdl_memory/mem(27) X"FF"
-change /mp2_cpu/dram/vhdl_memory/mem(28) X"00"
+change /mp2_cpu/dram/vhdl_memory/mem(28) X"05"
 change /mp2_cpu/dram/vhdl_memory/mem(29) X"00"
 run 5
 echo "Done loading ../testcode/mp1Factorial.asm program code."

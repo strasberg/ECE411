@@ -1,5 +1,5 @@
 SEGMENT  CodeSegment:
-   LDB  R1, R0, 2     ; R1 <= Number to do factorial for
+   LDR  R1, R0, INPUT     ; R1 <= Number to do factorial for
    ADD  R3, R0, R1        ; R3 <= R0 + R1 
    NOT  R2, R0            ; R2 <= -1
 

@@ -547,7 +547,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "19:27:11"
+value "21:41:06"
 )
 (vvPair
 variable "unit"
@@ -1378,7 +1378,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 517,0
+lastUid 540,0
 okToSyncOnLoad 1
 activeModelName "Symbol"
 )
