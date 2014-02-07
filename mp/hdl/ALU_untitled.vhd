@@ -55,7 +55,7 @@ BEGIN
 			   TEMP_ALUOUT(15 downto (15 - COUNT + 1)) := (others => RFAOUT(15));
 			 end if;
 			When ALU_SRL =>
-        TEMP_ALUOUT := std_logic_vector("srl"(unsigned(RFAOUT), COUNT));			  
+        TEMP_ALUOUT := std_logic_vector("srl"(unsigned(RFAOUT), to_integer(unsigned(ALUMuxout(3 downto 0)))));			  
 			When ALU_SLL =>
 			  TEMP_ALUOUT := std_logic_vector("sll"(unsigned(RFAOUT), COUNT));	 
 			WHEN OTHERS =>

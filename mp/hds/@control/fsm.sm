@@ -108,19 +108,19 @@ value "/home/strasbe1/ECE411/mp/hds/Control"
 )
 (vvPair
 variable "date"
-value "02/06/14"
+value "02/07/14"
 )
 (vvPair
 variable "day"
-value "Thu"
+value "Fri"
 )
 (vvPair
 variable "day_long"
-value "Thursday"
+value "Friday"
 )
 (vvPair
 variable "dd"
-value "06"
+value "07"
 )
 (vvPair
 variable "entity_name"
@@ -148,7 +148,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "dcl-l520-33.ews.illinois.edu"
+value "gelib-057-39.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -240,7 +240,7 @@ value "fsm"
 )
 (vvPair
 variable "time"
-value "22:45:26"
+value "16:42:19"
 )
 (vvPair
 variable "unit"
@@ -11483,13 +11483,14 @@ shape (Rectangle
 uid 3491,0
 va (VaSet
 vasetType 1
-isHidden 1
+transparent 1
 fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
+fillStyle 1
 )
-xt "25246,17292,25446,17492"
+xt "23086,9659,32486,12559"
 )
 autoResize 1
 tline (Line
@@ -11500,10 +11501,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "21346,14392,21346,14392"
+xt "23186,9559,32386,9559"
 pts [
-"21346,14392"
-"21346,14392"
+"23186,9559"
+"32386,9559"
 ]
 )
 bline (Line
@@ -11514,10 +11515,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "21346,14392,21346,14392"
+xt "23186,10284,32386,10284"
 pts [
-"21346,14392"
-"21346,14392"
+"23186,10284"
+"32386,10284"
 ]
 )
 ttri (Triangle
@@ -11531,7 +11532,7 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "20896,14217,21246,14567"
+xt "22736,9184,23086,9534"
 )
 btri (Triangle
 uid 3495,0
@@ -11544,14 +11545,14 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "20896,14217,21246,14567"
+xt "22736,7934,23086,8284"
 )
 entryActions (MLText
 uid 3496,0
 va (VaSet
 font "courier,8,0"
 )
-xt "21346,14392,21346,14392"
+xt "23186,9359,23186,9359"
 tm "Actions"
 )
 inActions (MLText
@@ -11559,7 +11560,10 @@ uid 3497,0
 va (VaSet
 font "courier,8,0"
 )
-xt "21346,14392,21346,14392"
+xt "23186,9759,32386,12459"
+st "RFMuxSel <= '1';
+ALUMuxSel <= '1';
+ADJ6SEl <= '1';"
 tm "Actions"
 )
 exitActions (MLText
@@ -11567,7 +11571,7 @@ uid 3498,0
 va (VaSet
 font "courier,8,0"
 )
-xt "21346,14392,21346,14392"
+xt "23786,8109,23786,8109"
 tm "Actions"
 )
 )
@@ -12010,7 +12014,7 @@ lineColor "39936,56832,65280"
 lineWidth -1
 fillStyle 1
 )
-xt "2087,20837,11287,24637"
+xt "1987,19937,11387,25537"
 )
 autoResize 1
 tline (Line
@@ -12021,10 +12025,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "2187,20737,11187,20737"
+xt "2087,19837,11287,19837"
 pts [
-"2187,20737"
-"11187,20737"
+"2087,19837"
+"11287,19837"
 ]
 )
 bline (Line
@@ -12035,10 +12039,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "2187,22137,11187,22137"
+xt "2087,22587,11287,22587"
 pts [
-"2187,22137"
-"11187,22137"
+"2087,22587"
+"11287,22587"
 ]
 )
 ttri (Triangle
@@ -12052,7 +12056,7 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "1737,20362,2087,20712"
+xt "1637,19462,1987,19812"
 )
 btri (Triangle
 uid 3635,0
@@ -12065,14 +12069,14 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "1737,19562,2087,19912"
+xt "1637,19562,1987,19912"
 )
 entryActions (MLText
 uid 3636,0
 va (VaSet
 font "courier,8,0"
 )
-xt "2187,20537,2187,20537"
+xt "2087,19637,2087,19637"
 tm "Actions"
 )
 inActions (MLText
@@ -12080,11 +12084,13 @@ uid 3637,0
 va (VaSet
 font "courier,8,0"
 )
-xt "2187,20937,11187,24537"
+xt "2087,20037,11287,25437"
 st "ALUop <= alu_sll;
 RegWrite <= '1';
 LoadNZP <= '1';
-RFMuxSel <= '1';"
+RFMuxSel <= '1';
+ALUMuxSel <= '1';
+ADJ6SEl <= '1';"
 tm "Actions"
 )
 exitActions (MLText
@@ -12175,7 +12181,7 @@ lineColor "39936,56832,65280"
 lineWidth -1
 fillStyle 1
 )
-xt "39907,15896,49107,19696"
+xt "42918,13410,52318,19010"
 )
 autoResize 1
 tline (Line
@@ -12186,10 +12192,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "40007,15796,49007,15796"
+xt "43018,13310,52218,13310"
 pts [
-"40007,15796"
-"49007,15796"
+"43018,13310"
+"52218,13310"
 ]
 )
 bline (Line
@@ -12200,10 +12206,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "40007,17196,49007,17196"
+xt "43018,16060,52218,16060"
 pts [
-"40007,17196"
-"49007,17196"
+"43018,16060"
+"52218,16060"
 ]
 )
 ttri (Triangle
@@ -12217,7 +12223,7 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "39557,15421,39907,15771"
+xt "42568,12935,42918,13285"
 )
 btri (Triangle
 uid 3652,0
@@ -12230,14 +12236,14 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "39557,14621,39907,14971"
+xt "42568,13035,42918,13385"
 )
 entryActions (MLText
 uid 3653,0
 va (VaSet
 font "courier,8,0"
 )
-xt "40007,15596,40007,15596"
+xt "43018,13110,43018,13110"
 tm "Actions"
 )
 inActions (MLText
@@ -12245,11 +12251,13 @@ uid 3654,0
 va (VaSet
 font "courier,8,0"
 )
-xt "40007,15996,49007,19596"
+xt "43018,13510,52218,18910"
 st "ALUop <= alu_sra;
 RegWrite <= '1';
 LoadNZP <= '1';
-RFMuxSel <= '1';"
+RFMuxSel <= '1';
+ALUMuxSel <= '1';
+ADJ6SEl <= '1';"
 tm "Actions"
 )
 exitActions (MLText
@@ -12257,7 +12265,7 @@ uid 3655,0
 va (VaSet
 font "courier,8,0"
 )
-xt "40507,14796,40507,14796"
+xt "43618,13210,43618,13210"
 tm "Actions"
 )
 )
@@ -12340,7 +12348,7 @@ lineColor "39936,56832,65280"
 lineWidth -1
 fillStyle 1
 )
-xt "24108,26388,33308,30188"
+xt "27729,24817,37129,30417"
 )
 autoResize 1
 tline (Line
@@ -12351,10 +12359,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "24208,26288,33208,26288"
+xt "27829,24717,37029,24717"
 pts [
-"24208,26288"
-"33208,26288"
+"27829,24717"
+"37029,24717"
 ]
 )
 bline (Line
@@ -12365,10 +12373,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "24208,27688,33208,27688"
+xt "27829,27467,37029,27467"
 pts [
-"24208,27688"
-"33208,27688"
+"27829,27467"
+"37029,27467"
 ]
 )
 ttri (Triangle
@@ -12382,7 +12390,7 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "23758,25913,24108,26263"
+xt "27379,24342,27729,24692"
 )
 btri (Triangle
 uid 3679,0
@@ -12395,14 +12403,14 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "23758,25113,24108,25463"
+xt "27379,24442,27729,24792"
 )
 entryActions (MLText
 uid 3680,0
 va (VaSet
 font "courier,8,0"
 )
-xt "24208,26088,24208,26088"
+xt "27829,24517,27829,24517"
 tm "Actions"
 )
 inActions (MLText
@@ -12410,11 +12418,13 @@ uid 3681,0
 va (VaSet
 font "courier,8,0"
 )
-xt "24208,26488,33208,30088"
+xt "27829,24917,37029,30317"
 st "ALUop <= alu_srl;
 RegWrite <= '1';
 LoadNZP <= '1';
-RFMuxSel <= '1';"
+RFMuxSel <= '1';
+ALUMuxSel <= '1';
+ADJ6SEl <= '1';"
 tm "Actions"
 )
 exitActions (MLText
@@ -12422,7 +12432,7 @@ uid 3682,0
 va (VaSet
 font "courier,8,0"
 )
-xt "24708,25288,24708,25288"
+xt "28429,24617,28429,24617"
 tm "Actions"
 )
 )
@@ -13076,8 +13086,8 @@ yShown 1
 color "26368,26368,26368"
 )
 packageList &0
-windowSize "-6,28,1914,1059"
-viewArea "-1400,400,102117,52860"
+windowSize "-6,2,1926,1082"
+viewArea "-1400,400,102849,55849"
 cachedDiagramExtent "-375,1375,68000,52000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-1000,1000"
@@ -13895,8 +13905,8 @@ yShown 1
 color "26368,26368,26368"
 )
 packageList &0
-windowSize "-6,28,1914,1059"
-viewArea "-26500,-1100,77017,51360"
+windowSize "-6,2,1926,1082"
+viewArea "-26500,-1100,77749,54349"
 cachedDiagramExtent "-375,1375,68000,52000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-1000,1000"
@@ -17624,8 +17634,8 @@ tm "SmCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "-6,28,1914,1059"
-viewArea "-5300,21420,96520,73020"
+windowSize "-6,2,1926,1082"
+viewArea "-5300,25600,73314,67414"
 cachedDiagramExtent "-250,-1169,117089,73059"
 hasePageBreakOrigin 1
 pageBreakOrigin "-1000,-2000"
@@ -18090,7 +18100,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 4179,0
+lastUid 4266,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *253 (LEmptyRow

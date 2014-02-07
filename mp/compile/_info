@@ -4,9 +4,9 @@ K3
 cModel Technology
 Z0 d/home/strasbe1
 T_opt
-VMKY79Tj@<U6[BYg7N;d<o1
+VH8IkHnbFQ]Q[2B7^W:BA20
 Z1 04 7 6 work mp2_cpu struct 1
-=17-2c27d7234285-52f465bf-6f000-6e6d
+=14-80c16ee1b975-52f560a7-ef0b8-2154
 Z2 o-quiet +acc -auto_acc_if_foreign -work ece411 -L ece411
 n@_opt
 Z3 OE;O;10.1d;51
@@ -183,7 +183,7 @@ R18
 !s100 90X319h=h;IeNlFOjVGRO0
 !i10b 1
 Ealu
-Z36 w1391747003
+Z36 w1391811355
 R6
 R7
 R8
@@ -196,9 +196,9 @@ L17
 VFofhRjOLOhEeGbJR6c4mT3
 R13
 33
-Z39 !s108 1391748540.099400
+Z39 !s108 1391811510.352316
 R24
-Z40 !s107 /home/strasbe1/ECE411/mp/hdl/Zext8_untitled.vhd|/home/strasbe1/ECE411/mp/hdl/IR_untitled.vhd|/home/strasbe1/ECE411/mp/hdl/ALU_untitled.vhd|
+Z40 !s107 /home/strasbe1/ECE411/mp/hdl/ALU_untitled.vhd|
 R17
 R18
 !s100 XACHEXdIkJUbdCUPg_QiD1
@@ -211,7 +211,7 @@ R9
 DEx4 work 3 alu 0 22 FofhRjOLOhEeGbJR6c4mT3
 l32
 L31
-V;S;=PKealXH_YXG2X3RRB1
+V?VHKHM=cd:<:UAZ?CS0Ed2
 R13
 33
 R39
@@ -219,7 +219,7 @@ R24
 R40
 R17
 R18
-!s100 G>odJADklLX7?;=llBmYF2
+!s100 0OEWOZ@oUH@eT88D3@IYk0
 !i10b 1
 Ebradd
 Z41 w1390884605
@@ -300,7 +300,7 @@ R18
 !s100 YlVBCfTh=]G9A`]`f[=293
 !i10b 1
 Econtrol
-Z47 w1391748215
+Z47 w1391812651
 R6
 R7
 R8
@@ -313,9 +313,9 @@ L16
 VUJ3jcWc[c:FjN:IVZMBz92
 R13
 32
-Z50 !s108 1391748539.858863
+Z50 !s108 1391812774.389651
 Z51 !s90 -work|ece411|-nologo|-f|/tmp/Files0|
-Z52 !s107 /home/strasbe1/ECE411/mp/hdl/control_fsm.vhd|
+Z52 !s107 /home/strasbe1/ECE411/mp/hdl/mp2_cpu_struct.vhd|/home/strasbe1/ECE411/mp/hdl/control_fsm.vhd|
 Z53 o-work ece411 -nologo
 R18
 !s100 9BVgnX05n^BR0I3VTacab2
@@ -328,7 +328,7 @@ R8
 R9
 l128
 L78
-VSi`:FR29<CMhk8SD?eaGE2
+VLHm5^z]XOCC4Md2>]J;c43
 R13
 32
 R50
@@ -336,10 +336,10 @@ R51
 R52
 R53
 R18
-!s100 blMX=XDzIE_<>jFX2dam41
+!s100 JYOPnOh86_NlDo9`A0_A=2
 !i10b 1
 Edatapath
-Z54 w1391748414
+Z54 w1391811386
 R6
 R7
 R8
@@ -352,7 +352,7 @@ L16
 VjA8Ag5UAG7CM^Jf]4_fKI1
 R13
 32
-Z57 !s108 1391748540.472238
+Z57 !s108 1391811510.557888
 Z58 !s90 -work|ece411|-nologo|-f|/tmp/Files2|
 Z59 !s107 /home/strasbe1/ECE411/mp/hdl/mp2_cpu_struct.vhd|/home/strasbe1/ECE411/mp/hdl/datapath_struct.vhd|
 R53
@@ -528,9 +528,9 @@ L17
 VzVzUF0R1TW3`jiU`_4k=X3
 R13
 33
-R39
+Z76 !s108 1391748540.099400
 R24
-R40
+Z77 !s107 /home/strasbe1/ECE411/mp/hdl/Zext8_untitled.vhd|/home/strasbe1/ECE411/mp/hdl/IR_untitled.vhd|/home/strasbe1/ECE411/mp/hdl/ALU_untitled.vhd|
 R17
 R18
 !s100 d=n]KPnf885M0cTzE0O?c3
@@ -546,22 +546,22 @@ L42
 VKRB4in]Nc35?3gfU@6n?_1
 R13
 33
-R39
+R76
 R24
-R40
+R77
 R17
 R18
 !s100 IX:985c?ahFHhel;m:2Y20
 !i10b 1
 Ejsradd
-Z76 w1391373247
+Z78 w1391373247
 R6
 R7
 R8
 R9
 R10
-Z77 8/home/strasbe1/ECE411/mp/hdl/JSRadd_untitled.vhd
-Z78 F/home/strasbe1/ECE411/mp/hdl/JSRadd_untitled.vhd
+Z79 8/home/strasbe1/ECE411/mp/hdl/JSRadd_untitled.vhd
+Z80 F/home/strasbe1/ECE411/mp/hdl/JSRadd_untitled.vhd
 l0
 L17
 VHJSUHXkQL<R8cjeiDB:OG1
@@ -595,19 +595,19 @@ R18
 Plc3b_types
 R8
 R9
-Z79 w1345836949
+Z81 w1345836949
 R20
-Z80 8/home/strasbe1/ece411/ece411_given/hdl/ece411package.vhd
-Z81 F/home/strasbe1/ece411/ece411_given/hdl/ece411package.vhd
+Z82 8/home/strasbe1/ece411/ece411_given/hdl/ece411package.vhd
+Z83 F/home/strasbe1/ece411/ece411_given/hdl/ece411package.vhd
 l0
 L12
 VY^MG3gn[4FARO_W4L60_<3
 R13
 32
 b1
-Z82 !s108 1390885466.691434
+Z84 !s108 1390885466.691434
 R51
-Z83 !s107 /home/strasbe1/ece411/ece411_given/hdl/control_fsm.vhd|/home/strasbe1/ece411/ece411_given/hdl/ece411package.vhd|
+Z85 !s107 /home/strasbe1/ece411/ece411_given/hdl/control_fsm.vhd|/home/strasbe1/ece411/ece411_given/hdl/ece411package.vhd|
 R53
 R18
 !s100 Ea;QP;c9[Wof[1FA6YM8D2
@@ -621,31 +621,31 @@ L131
 VR^[;m<LJ;46FKVeHJ2XnJ2
 R13
 32
-R82
+R84
 R51
-R83
+R85
 R53
 R18
 nbody
 !s100 c2z9nXZN<0ZWIO?zlUDiI2
 !i10b 1
 Elwrbyte
-Z84 w1391394002
+Z86 w1391394002
 R6
 R7
 R8
 R9
 R10
-Z85 8/home/strasbe1/ECE411/mp/hdl/LwrByte_untitled.vhd
-Z86 F/home/strasbe1/ECE411/mp/hdl/LwrByte_untitled.vhd
+Z87 8/home/strasbe1/ECE411/mp/hdl/LwrByte_untitled.vhd
+Z88 F/home/strasbe1/ECE411/mp/hdl/LwrByte_untitled.vhd
 l0
 L17
 V8g1KzMQfFY3S_4eo8oJ183
 R13
 33
-Z87 !s108 1391394131.414009
+Z89 !s108 1391394131.414009
 R15
-Z88 !s107 /home/strasbe1/ECE411/mp/hdl/LwrByte_untitled.vhd|
+Z90 !s107 /home/strasbe1/ECE411/mp/hdl/LwrByte_untitled.vhd|
 R17
 R18
 !s100 ed^6TA]::^Uid_;Ei<L8P2
@@ -661,30 +661,30 @@ L30
 V2XHfQXdD<aJnj?::YEhNe1
 R13
 33
-R87
+R89
 R15
-R88
+R90
 R17
 R18
 !s100 l;[?OeUfm=iaF2f>R:;f^1
 !i10b 1
 Ememory
-Z89 w1391288375
+Z91 w1391288375
 R6
 R7
 R8
 R9
 R20
-Z90 8/home/strasbe1/ece411/ece411_given/hdl/Memory_untitled.vhd
-Z91 F/home/strasbe1/ece411/ece411_given/hdl/Memory_untitled.vhd
+Z92 8/home/strasbe1/ece411/ece411_given/hdl/Memory_untitled.vhd
+Z93 F/home/strasbe1/ece411/ece411_given/hdl/Memory_untitled.vhd
 l0
 L17
 V<=Q7P8Do8=J[DKo^U_ZOP3
 R13
 33
-Z92 !s108 1391288958.318265
+Z94 !s108 1391288958.318265
 R24
-Z93 !s107 /home/strasbe1/ece411/ece411_given/hdl/Memory_untitled.vhd|
+Z95 !s107 /home/strasbe1/ece411/ece411_given/hdl/Memory_untitled.vhd|
 R17
 R18
 !s100 D1co<c<RZOM?MQPV7Ec3@1
@@ -700,39 +700,39 @@ L35
 Vb@RD;B>gb0efTQ`4J00J52
 R13
 33
-R92
+R94
 R24
-R93
+R95
 R17
 R18
 !s100 V@EEV4bO0O`o4PP>n=@<C1
 !i10b 1
 Emp1_cpu
-Z94 w1390931868
+Z96 w1390931868
 R6
 R7
 R8
 R9
 R20
-Z95 8/home/strasbe1/ece411/ece411_given/hdl/mp1_cpu_struct.vhd
-Z96 F/home/strasbe1/ece411/ece411_given/hdl/mp1_cpu_struct.vhd
+Z97 8/home/strasbe1/ece411/ece411_given/hdl/mp1_cpu_struct.vhd
+Z98 F/home/strasbe1/ece411/ece411_given/hdl/mp1_cpu_struct.vhd
 l0
 L16
 V82MkZ<XOVKIK8ei^f5e;80
 R13
 32
-Z97 !s108 1390931987.671064
-Z98 !s90 -work|ece411|-nologo|-f|/tmp/Files1|
-Z99 !s107 /home/strasbe1/ece411/ece411_given/hdl/mp1_cpu_struct.vhd|/home/strasbe1/ece411/ece411_given/hdl/datapath_struct.vhd|
+Z99 !s108 1390931987.671064
+Z100 !s90 -work|ece411|-nologo|-f|/tmp/Files1|
+Z101 !s107 /home/strasbe1/ece411/ece411_given/hdl/mp1_cpu_struct.vhd|/home/strasbe1/ece411/ece411_given/hdl/datapath_struct.vhd|
 R53
 R18
 !s100 HSh17g_?fI5Q8Tf@RkVa_2
 !i10b 1
 Astruct
-Z100 DEx6 ece411 6 memory 0 22 <=Q7P8Do8=J[DKo^U_ZOP3
+Z102 DEx6 ece411 6 memory 0 22 <=Q7P8Do8=J[DKo^U_ZOP3
 DEx6 ece411 8 datapath 0 22 jd>e4_`:FH03L<cQ?Ffok2
 DEx6 ece411 7 control 0 22 :bVIm11eBAd3g0RzoM^k60
-Z101 DEx6 ece411 6 clkgen 0 22 KQk8Pa[5d4oZeGAJ9LdXP0
+Z103 DEx6 ece411 6 clkgen 0 22 KQk8Pa[5d4oZeGAJ9LdXP0
 DEx4 work 7 mp1_cpu 0 22 82MkZ<XOVKIK8ei^f5e;80
 R6
 R7
@@ -743,39 +743,39 @@ L43
 V^M8b1TL4XFNPmRO46;`K80
 R13
 32
-R97
-R98
 R99
+R100
+R101
 R53
 R18
 !s100 I1CG6BXHNBRdABPmeAnd20
 !i10b 1
 Emp2_cpu
-R54
+R47
 R6
 R7
 R8
 R9
 R10
-Z102 8/home/strasbe1/ECE411/mp/hdl/mp2_cpu_struct.vhd
-Z103 F/home/strasbe1/ECE411/mp/hdl/mp2_cpu_struct.vhd
+Z104 8/home/strasbe1/ECE411/mp/hdl/mp2_cpu_struct.vhd
+Z105 F/home/strasbe1/ECE411/mp/hdl/mp2_cpu_struct.vhd
 l0
 L16
 V0_Bfm=QF`X=ReJg6glE1E2
 R13
 32
-R57
-R58
-R59
+R50
+R51
+R52
 R53
 R18
 !s100 `7i`i9;YJKIUZ5:`3=koY0
 !i10b 1
 Astruct
-R100
+R102
 DEx6 ece411 8 datapath 0 22 jA8Ag5UAG7CM^Jf]4_fKI1
 DEx6 ece411 7 control 0 22 UJ3jcWc[c:FjN:IVZMBz92
-R101
+R103
 DEx4 work 7 mp2_cpu 0 22 0_Bfm=QF`X=ReJg6glE1E2
 R6
 R7
@@ -786,22 +786,22 @@ L43
 VKZ;D:K=8FcKL7T>[]MFfI1
 R13
 32
-R57
-R58
-R59
+R50
+R51
+R52
 R53
 R18
 !s100 oGbGz^AH1T6=84Ym=a72E3
 !i10b 1
 Enzp
-Z104 w1390927892
+Z106 w1390927892
 R6
 R7
 R8
 R9
 R20
-Z105 8/home/strasbe1/ece411/ece411_given/hdl/NZP_untitled.vhd
-Z106 F/home/strasbe1/ece411/ece411_given/hdl/NZP_untitled.vhd
+Z107 8/home/strasbe1/ece411/ece411_given/hdl/NZP_untitled.vhd
+Z108 F/home/strasbe1/ece411/ece411_given/hdl/NZP_untitled.vhd
 l0
 L17
 VU:aH>:kd]0]a:@bU0BenN0
@@ -833,14 +833,14 @@ R18
 !s100 PdQoS<>AIi^HaFi=:7YBV1
 !i10b 1
 Enzpsplit
-Z107 w1390922096
+Z109 w1390922096
 R6
 R7
 R8
 R9
 R20
-Z108 8/home/strasbe1/ece411/ece411_given/hdl/NZPsplit_untitled.vhd
-Z109 F/home/strasbe1/ece411/ece411_given/hdl/NZPsplit_untitled.vhd
+Z110 8/home/strasbe1/ece411/ece411_given/hdl/NZPsplit_untitled.vhd
+Z111 F/home/strasbe1/ece411/ece411_given/hdl/NZPsplit_untitled.vhd
 l0
 L17
 V3oCM7^7`7ii5[XGc7KR9_1
@@ -872,14 +872,14 @@ R18
 !s100 85`UB1:fEcLaSJeh:IGlk3
 !i10b 1
 Eplus2
-Z110 w1390922080
+Z112 w1390922080
 R6
 R7
 R8
 R9
 R20
-Z111 8/home/strasbe1/ece411/ece411_given/hdl/Plus2_untitled.vhd
-Z112 F/home/strasbe1/ece411/ece411_given/hdl/Plus2_untitled.vhd
+Z113 8/home/strasbe1/ece411/ece411_given/hdl/Plus2_untitled.vhd
+Z114 F/home/strasbe1/ece411/ece411_given/hdl/Plus2_untitled.vhd
 l0
 L17
 V;NU98<B;jTP]Xo772mo1c2
@@ -911,14 +911,14 @@ R18
 !s100 U;Ph1:iM@CdMNSLeN^Oka2
 !i10b 1
 Ereg16
-Z113 w1390922030
+Z115 w1390922030
 R6
 R7
 R8
 R9
 R20
-Z114 8/home/strasbe1/ece411/ece411_given/hdl/Reg16_untitled.vhd
-Z115 F/home/strasbe1/ece411/ece411_given/hdl/Reg16_untitled.vhd
+Z116 8/home/strasbe1/ece411/ece411_given/hdl/Reg16_untitled.vhd
+Z117 F/home/strasbe1/ece411/ece411_given/hdl/Reg16_untitled.vhd
 l0
 L17
 VEGKT41;e_=Xh2k@SWJFGE3
@@ -950,22 +950,22 @@ R18
 !s100 @1i1;Pf8[E>zYc0MMh;322
 !i10b 1
 Eregfile
-Z116 w1391370586
+Z118 w1391370586
 R6
 R7
 R8
 R9
 R10
-Z117 8/home/strasbe1/ECE411/mp/hdl/RegFile_untitled.vhd
-Z118 F/home/strasbe1/ECE411/mp/hdl/RegFile_untitled.vhd
+Z119 8/home/strasbe1/ECE411/mp/hdl/RegFile_untitled.vhd
+Z120 F/home/strasbe1/ECE411/mp/hdl/RegFile_untitled.vhd
 l0
 L17
 V5oCo0cEE_ZYJkYL6iaFWg0
 R13
 33
-Z119 !s108 1391370719.338148
+Z121 !s108 1391370719.338148
 R15
-Z120 !s107 /home/strasbe1/ECE411/mp/hdl/RegFile_untitled.vhd|
+Z122 !s107 /home/strasbe1/ECE411/mp/hdl/RegFile_untitled.vhd|
 R17
 R18
 !s100 fj0l[?aA5H=mZ;3H?DJDi0
@@ -981,30 +981,30 @@ L35
 VM]1BCbNTQ3k[o27z9;YkD0
 R13
 33
-R119
+R121
 R15
-R120
+R122
 R17
 R18
 !s100 Vm]G^Y5ofGf<ZC5gI]PCV2
 !i10b 1
 Estoremux
-Z121 w1390931855
+Z123 w1390931855
 R6
 R7
 R8
 R9
 R20
-Z122 8/home/strasbe1/ece411/ece411_given/hdl/StoreMux_untitled.vhd
-Z123 F/home/strasbe1/ece411/ece411_given/hdl/StoreMux_untitled.vhd
+Z124 8/home/strasbe1/ece411/ece411_given/hdl/StoreMux_untitled.vhd
+Z125 F/home/strasbe1/ece411/ece411_given/hdl/StoreMux_untitled.vhd
 l0
 L17
 VTKb4`DG3DCcfJB1P?kgJX1
 R13
 33
-Z124 !s108 1390931987.483836
+Z126 !s108 1390931987.483836
 R15
-Z125 !s107 /home/strasbe1/ece411/ece411_given/hdl/StoreMux_untitled.vhd|
+Z127 !s107 /home/strasbe1/ece411/ece411_given/hdl/StoreMux_untitled.vhd|
 R17
 R18
 !s100 eRU<N=_o^cdB7[9jnY6nG0
@@ -1020,22 +1020,22 @@ L31
 Vg=>iZe:e8_9cAaOSgnREI2
 R13
 33
-R124
+R126
 R15
-R125
+R127
 R17
 R18
 !s100 :e?_SfG^gj3XX2ca6YTd]0
 !i10b 1
 Ewordmux2
-Z126 w1390922066
+Z128 w1390922066
 R6
 R7
 R8
 R9
 R20
-Z127 8/home/strasbe1/ece411/ece411_given/hdl/WordMux2_untitled.vhd
-Z128 F/home/strasbe1/ece411/ece411_given/hdl/WordMux2_untitled.vhd
+Z129 8/home/strasbe1/ece411/ece411_given/hdl/WordMux2_untitled.vhd
+Z130 F/home/strasbe1/ece411/ece411_given/hdl/WordMux2_untitled.vhd
 l0
 L17
 VchV^DOK@EjF@N=S6RF9oX3
@@ -1067,22 +1067,22 @@ R18
 !s100 ]@]kfOO[RE_>85R4GPiI[0
 !i10b 1
 Ezext8
-Z129 w1391747187
+Z131 w1391747187
 R6
 R7
 R8
 R9
 R10
-Z130 8/home/strasbe1/ECE411/mp/hdl/Zext8_untitled.vhd
-Z131 F/home/strasbe1/ECE411/mp/hdl/Zext8_untitled.vhd
+Z132 8/home/strasbe1/ECE411/mp/hdl/Zext8_untitled.vhd
+Z133 F/home/strasbe1/ECE411/mp/hdl/Zext8_untitled.vhd
 l0
 L17
 VG9;C?7eJ4h8I5RUz>XKlJ2
 R13
 33
-R39
+R76
 R24
-R40
+R77
 R17
 R18
 !s100 Dc7SfoSf1`V@=?L<UbcIO1
@@ -1098,9 +1098,9 @@ L29
 Va?F@Y1Ue6`AEMKQJ@HA001
 R13
 33
-R39
+R76
 R24
-R40
+R77
 R17
 R18
 !s100 mFm@E;m4kXZ0M6<??4cVe3
