@@ -30,7 +30,8 @@ ENTITY IR IS
       offset11   : OUT    LC3B_OFFSET11;
       offset11sel: OUT    std_logic;
       A          : OUT    std_logic;
-      D          : OUT    std_logic
+      D          : OUT    std_logic;
+      trapvect   : OUT    LC3B_TRAPVECT8
    );
 
 -- Declarations
@@ -63,6 +64,7 @@ BEGIN
 	offset11 <= VAL_IR(10 downto 0);
 	A <= VAL_IR(5);
 	D <= VAL_IR(4);
+	trapvect <= VAL_IR(7 downto 0);
 END UNTITLED;
 
 

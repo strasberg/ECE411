@@ -51,7 +51,7 @@ BEGIN
 			  if( ALUMuxout(3 downto 0) = "0000") then
 			    TEMP_ALUOUT := (RFAOUT); --no shifting
 			 else
-			   TEMP_ALUOUT(15 - COUNT downto 0) := (RFAOUT(15 downto COUNT));
+			   TEMP_ALUOUT(15 - COUNT downto 0) := RFAOUT(15 downto COUNT);
 			   TEMP_ALUOUT(15 downto (15 - COUNT + 1)) := (others => RFAOUT(15));
 			 end if;
 			When ALU_SRL =>
