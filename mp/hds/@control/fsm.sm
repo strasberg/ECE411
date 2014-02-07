@@ -240,7 +240,7 @@ value "fsm"
 )
 (vvPair
 variable "time"
-value "16:42:19"
+value "16:55:34"
 )
 (vvPair
 variable "unit"
@@ -5880,13 +5880,14 @@ shape (Rectangle
 uid 2909,0
 va (VaSet
 vasetType 1
-isHidden 1
+transparent 1
 fg "65535,65535,65535"
 bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
+fillStyle 1
 )
-xt "32036,-35244,32236,-35044"
+xt "25436,-36144,38836,-34144"
 )
 autoResize 1
 tline (Line
@@ -5897,10 +5898,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "28136,-38144,28136,-38144"
+xt "25536,-36244,38736,-36244"
 pts [
-"28136,-38144"
-"28136,-38144"
+"25536,-36244"
+"38736,-36244"
 ]
 )
 bline (Line
@@ -5911,10 +5912,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "28136,-38144,28136,-38144"
+xt "25536,-36194,38736,-36194"
 pts [
-"28136,-38144"
-"28136,-38144"
+"25536,-36194"
+"38736,-36194"
 ]
 )
 ttri (Triangle
@@ -5928,7 +5929,7 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "27686,-38319,28036,-37969"
+xt "25086,-36619,25436,-36269"
 )
 btri (Triangle
 uid 2913,0
@@ -5941,14 +5942,14 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "27686,-38319,28036,-37969"
+xt "25086,-38319,25436,-37969"
 )
 entryActions (MLText
 uid 2914,0
 va (VaSet
 font "courier,8,0"
 )
-xt "28136,-38144,28136,-38144"
+xt "25536,-36444,25536,-36444"
 tm "Actions"
 )
 inActions (MLText
@@ -5956,7 +5957,9 @@ uid 2915,0
 va (VaSet
 font "courier,8,0"
 )
-xt "28136,-38144,28136,-38144"
+xt "25536,-36044,38736,-34244"
+st "LoadMDR <= '1';
+MREAD_L <= '0' after 6ns;"
 tm "Actions"
 )
 exitActions (MLText
@@ -8913,8 +8916,8 @@ yShown 1
 color "26368,26368,26368"
 )
 packageList &0
-windowSize "-6,28,1914,1059"
-viewArea "4800,-52400,116802,4360"
+windowSize "-6,2,1926,1082"
+viewArea "14898,-52400,127692,7594"
 cachedDiagramExtent "4382,-48473,134172,52000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-1000,-50000"
@@ -17635,7 +17638,7 @@ tm "SmCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "-6,2,1926,1082"
-viewArea "-5300,25600,73314,67414"
+viewArea "-5300,25600,66478,63778"
 cachedDiagramExtent "-250,-1169,117089,73059"
 hasePageBreakOrigin 1
 pageBreakOrigin "-1000,-2000"
@@ -18100,7 +18103,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 4266,0
+lastUid 4295,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *253 (LEmptyRow

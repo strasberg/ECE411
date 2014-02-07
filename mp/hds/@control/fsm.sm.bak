@@ -240,7 +240,7 @@ value "fsm"
 )
 (vvPair
 variable "time"
-value "16:39:20"
+value "16:42:19"
 )
 (vvPair
 variable "unit"
@@ -11490,7 +11490,7 @@ lineColor "39936,56832,65280"
 lineWidth -1
 fillStyle 1
 )
-xt "23336,10559,32236,11659"
+xt "23086,9659,32486,12559"
 )
 autoResize 1
 tline (Line
@@ -11501,10 +11501,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "23436,10459,32136,10459"
+xt "23186,9559,32386,9559"
 pts [
-"23436,10459"
-"32136,10459"
+"23186,9559"
+"32386,9559"
 ]
 )
 bline (Line
@@ -11515,10 +11515,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "23436,9834,32136,9834"
+xt "23186,10284,32386,10284"
 pts [
-"23436,9834"
-"32136,9834"
+"23186,10284"
+"32386,10284"
 ]
 )
 ttri (Triangle
@@ -11532,7 +11532,7 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "22986,10084,23336,10434"
+xt "22736,9184,23086,9534"
 )
 btri (Triangle
 uid 3495,0
@@ -11545,14 +11545,14 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "22986,7934,23336,8284"
+xt "22736,7934,23086,8284"
 )
 entryActions (MLText
 uid 3496,0
 va (VaSet
 font "courier,8,0"
 )
-xt "23436,10259,23436,10259"
+xt "23186,9359,23186,9359"
 tm "Actions"
 )
 inActions (MLText
@@ -11560,8 +11560,10 @@ uid 3497,0
 va (VaSet
 font "courier,8,0"
 )
-xt "23436,10659,32136,11559"
-st "RFMuxSel <= '1';"
+xt "23186,9759,32386,12459"
+st "RFMuxSel <= '1';
+ALUMuxSel <= '1';
+ADJ6SEl <= '1';"
 tm "Actions"
 )
 exitActions (MLText
@@ -17633,7 +17635,7 @@ tm "SmCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "-6,2,1926,1082"
-viewArea "-5300,25600,80150,71050"
+viewArea "-5300,25600,73314,67414"
 cachedDiagramExtent "-250,-1169,117089,73059"
 hasePageBreakOrigin 1
 pageBreakOrigin "-1000,-2000"
@@ -18098,7 +18100,7 @@ stateOrder [
 name "csm"
 )
 ]
-lastUid 4237,0
+lastUid 4266,0
 commonDM (CommonDM
 ldm (LogicalDM
 emptyRow *253 (LEmptyRow

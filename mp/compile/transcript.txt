@@ -2116,3 +2116,585 @@ do shifttest.do
 #     while executing
 # "force /reset_l 0 @0"
 run 5000
+restart -f
+# Loading /software/mentor/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll
+do ldiStiTest.do
+# --- Executing initialization force file for ../testcode/ldiStiTest.asm --- 
+# Resetting processor for 5 ns. 
+# Initializing the processor. 
+# Done initializing processor, loading ../testcode/ldiStiTest.asm program code. 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aALU
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/theDatapath/aALU
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/DRAM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aALU
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 7 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aALU
+# Done loading ../testcode/ldiStiTest.asm program code. 
+run 1000
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 22 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 25 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 50 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 75 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 100 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 125 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 147 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 150 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 175 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 200 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 225 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 250 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 275 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 300 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 325 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 350 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 375 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 400 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 425 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 450 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 475 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 500 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 525 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 550 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 575 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 600 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 625 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 647 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 650 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 675 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 680 ns  Iteration: 1  Instance: /mp2_cpu/theDatapath/aRegFile
+run 1000
+run 1000
+run 1000
+add wave -position 10  sim:/mp2_cpu/theDatapath/MDRout
+run 1000
+run 1000
+run 1000
+run 1000
+run 1000
+run 1000
+run 1000
+run 1000
+run 1000
+run 1000
+run 1000
+run 1000
+run 1000
+run 1000
+run 1000
+run 1000
+run 1000
+run 1000
+restart -f
+# Loading /software/mentor/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll
+do ldiStiTest.do
+# --- Executing initialization force file for ../testcode/ldiStiTest.asm --- 
+# Resetting processor for 5 ns. 
+# Initializing the processor. 
+# Done initializing processor, loading ../testcode/ldiStiTest.asm program code. 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aALU
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/theDatapath/aALU
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/DRAM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aALU
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 7 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aALU
+# Done loading ../testcode/ldiStiTest.asm program code. 
+run 1000
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 22 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 25 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 50 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 75 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 100 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 125 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 147 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 150 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 175 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 200 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 225 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 250 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 275 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 300 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 325 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 350 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 375 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 400 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 425 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 450 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 475 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 500 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 525 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 550 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 575 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 600 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 625 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 647 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 650 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 675 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 680 ns  Iteration: 1  Instance: /mp2_cpu/theDatapath/aRegFile
+run 1000
+run 1000
+run 1000
+run 1000
+add wave -position 8  sim:/mp2_cpu/ControlUnit/current_state
+add wave -position 8  sim:/mp2_cpu/ControlUnit/current_state
+# hds_restart 
+restart -force
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "Control(fsm)".
+# Loading /software/mentor/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.lc3b_types(body)
+# Loading work.mp2_cpu(struct)#1
+# Loading work.clkgen(untitled)#1
+# Loading work.control(fsm)#1
+# Loading work.datapath(struct)#1
+# Loading work.adj11(untitled)#1
+# Loading work.adj6(untitled)#1
+# Loading work.adj6noshft(untitled)#1
+# Loading work.adj9(untitled)#1
+# Loading work.alu(untitled)#1
+# Loading work.bradd(untitled)#1
+# Loading work.gencc(untitled)#1
+# Loading work.ir(untitled)#1
+# Loading work.imm5(untitled)#1
+# Loading work.jsradd(untitled)#1
+# Loading work.lwrbyte(untitled)#1
+# Loading work.nzp(untitled)#1
+# Loading work.nzpsplit(untitled)#1
+# Loading work.plus2(untitled)#1
+# Loading work.reg16(untitled)#1
+# Loading work.regfile(untitled)#1
+# Loading work.storemux(untitled)#1
+# Loading work.wordmux2(untitled)#1
+# Loading work.zext8(untitled)#1
+# Loading work.destmux(untitled)#1
+# Loading work.memory(untitled)#1
+do ldiStiTest.do
+# --- Executing initialization force file for ../testcode/ldiStiTest.asm --- 
+# Resetting processor for 5 ns. 
+# Initializing the processor. 
+# Done initializing processor, loading ../testcode/ldiStiTest.asm program code. 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aALU
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/theDatapath/aALU
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/DRAM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aALU
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 7 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aALU
+# Done loading ../testcode/ldiStiTest.asm program code. 
+run 1000
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 22 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 25 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 50 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 75 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 100 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 125 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 147 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 150 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 175 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 200 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 225 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 250 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 275 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 300 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 325 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 350 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 375 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 400 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 425 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 450 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 475 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 500 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 525 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 550 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 575 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 600 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 625 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 647 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 650 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 675 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 680 ns  Iteration: 1  Instance: /mp2_cpu/theDatapath/aRegFile
+run 1000
+run 1000
+run 1000
+run 1000
+run 1000
+run 1000
+restart -f
+# Loading /software/mentor/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll
+do mp21-final.do1
+# Cannot open macro file: mp21-final.do1
+do mp21-final.do
+# --- Executing initialization force file for ../testcode/mp21-final.asm --- 
+# Resetting processor for 5 ns. 
+# Initializing the processor. 
+# Done initializing processor, loading ../testcode/mp21-final.asm program code. 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aALU
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/theDatapath/aALU
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/DRAM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aALU
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 7 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aALU
+# Done loading ../testcode/mp21-final.asm program code. 
+run 5000
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 22 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 25 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 50 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 75 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 100 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 125 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 147 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 150 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 175 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 200 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 225 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 250 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 275 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 300 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 325 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 350 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 375 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 400 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 425 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 450 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 475 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 500 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 525 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 550 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 575 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 600 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 625 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 647 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 650 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 675 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 680 ns  Iteration: 1  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 684 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aALU
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000
+run 5000

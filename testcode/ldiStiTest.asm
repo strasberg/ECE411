@@ -18,8 +18,8 @@ sti r7, r0, MySPointer ;PC= 2
 ;MDR <= (R7 = 4x600D)
 ;M[10] <= 4x600D
 
-HALT:                     ; Infinite loop to keep the processor
-BRnzp HALT             ; from trying to execute the data below.
+;HALT:                     ; Infinite loop to keep the processor
+;BRnzp HALT             ; from trying to execute the data below.
 
 MyPointer: DATA2 MyData ;4
 MyData: DATA2 4x600D ;6
