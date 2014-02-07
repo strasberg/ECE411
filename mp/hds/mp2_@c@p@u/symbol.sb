@@ -415,19 +415,19 @@ value "/home/strasbe1/ECE411/mp/hds/mp2_CPU"
 )
 (vvPair
 variable "date"
-value "02/02/14"
+value "02/06/14"
 )
 (vvPair
 variable "day"
-value "Sun"
+value "Thu"
 )
 (vvPair
 variable "day_long"
-value "Sunday"
+value "Thursday"
 )
 (vvPair
 variable "dd"
-value "02"
+value "06"
 )
 (vvPair
 variable "entity_name"
@@ -455,7 +455,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "gelib-057-20.ews.illinois.edu"
+value "dcl-l520-33.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -547,7 +547,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "21:41:06"
+value "21:50:22"
 )
 (vvPair
 variable "unit"
@@ -1378,7 +1378,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 540,0
+lastUid 747,0
 okToSyncOnLoad 1
 activeModelName "Symbol"
 )

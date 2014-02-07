@@ -34,8 +34,10 @@ BEGIN
 	VHDL_ALU : PROCESS (RFAOUT, ALUMUXOUT, ALUOP)
 	----------------------------------------
 	VARIABLE TEMP_ALUOUT : LC3B_WORD;
+	VARIABLE COUNT : INTEGER;
 	BEGIN
 		-- CHECK FOR ALU OPERATION TYPE, AND EXECUTE
+		COUNT := to_integer(unsigned(ALUMuxout(3 downto 0)));
 		CASE ALUOP IS
 			WHEN ALU_ADD =>
 				TEMP_ALUOUT := STD_LOGIC_VECTOR(SIGNED(RFAOUT) + SIGNED(ALUMUXOUT));
@@ -45,10 +47,20 @@ BEGIN
 				TEMP_ALUOUT := (RFAOUT XOR "1111111111111111");
 			WHEN ALU_PASS =>
 				TEMP_ALUOUT := (RFAOUT);
+			When ALU_SRA =>
+			  if( ALUMuxout(3 downto 0) = "0000") then
+			    TEMP_ALUOUT := (RFAOUT); --no shifting
+			 else
+			   TEMP_ALUOUT(15 - COUNT downto 0) := (RFAOUT(15 downto COUNT));
+			   TEMP_ALUOUT(15 downto (15 - COUNT + 1)) := (others => RFAOUT(15));
+			 end if;
+			When ALU_SRL =>
+        TEMP_ALUOUT := std_logic_vector("srl"(unsigned(RFAOUT), COUNT));			  
+			When ALU_SLL =>
+			  TEMP_ALUOUT := std_logic_vector("sll"(unsigned(RFAOUT), COUNT));	 
 			WHEN OTHERS =>
 		END CASE;
 	--SET OUTPUT VALUE ALUOUT TO BE THE TEMPORARY VALUE CALCULATED WITHIN THE PROCESS AFTER A DELAY
 	ALUOUT <= TEMP_ALUOUT AFTER DELAY_ALU;
 	END PROCESS VHDL_ALU;
 END UNTITLED;
-

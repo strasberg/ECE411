@@ -27,8 +27,10 @@ ENTITY IR IS
       Imm5sel    : OUT    std_logic;
       immediate5 : OUT    LC3b_imm5;
       dest       : OUT    LC3b_reg;
-      offset11   : OUT    LC3B_OFFSET11
+      offset11   : OUT    LC3B_OFFSET11;
       offset11sel: OUT    std_logic;
+      a          : OUT    std_logic;
+      b          : OUT    std_logic
    );
 
 -- Declarations
@@ -59,6 +61,8 @@ BEGIN
 	Imm5Sel <= VAL_IR(5);
 	offset11sel <= VAL_IR(11);
 	offset11 <= VAL_IR(10 downto 0);
+	a <= VAL_IR(5);
+	b <= VAL_IR(4);
 END UNTITLED;
 
 

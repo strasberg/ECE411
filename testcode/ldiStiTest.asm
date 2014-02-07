@@ -9,8 +9,7 @@ LDI r7, r0, MyPointer ;PC= 0
 ;MAR <= 6
 ;MDR <= (M[6] = 4x600D)
 ;R7 <= 4x600D
-Add R0, R0, 0
-;sti r7, r0, MySPointer ;PC= 2
+sti r7, r0, MySPointer ;PC= 2
 ;First load should see
 ;MAR <= 8
 ;MDR <= (M[8] = 4xA)
