@@ -25,11 +25,11 @@ appVersion "2012.1 (Build 6)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
-suid 11,0
+suid 3,0
 usingSuid 1
 emptyRow *1 (LEmptyRow
 )
-uid 67,0
+uid 74,0
 optionalChildren [
 *2 (RefLabelRowHdr
 )
@@ -70,11 +70,11 @@ m 1
 decl (Decl
 n "Imm5out"
 t "LC3b_word"
-o 48
-suid 9,0
+o 46
+suid 1,0
 )
 )
-uid 248,0
+uid 66,0
 )
 *15 (LogPort
 port (LogicalPort
@@ -82,29 +82,30 @@ lang 11
 decl (Decl
 n "immediate5"
 t "LC3b_imm5"
-o 47
-suid 10,0
+o 72
+suid 2,0
 )
 )
-uid 250,0
+uid 68,0
 )
 *16 (LogPort
 port (LogicalPort
+lang 11
 decl (Decl
 n "clk"
 t "std_logic"
-o 16
-suid 11,0
+o 25
+suid 3,0
 )
 )
-uid 252,0
+uid 70,0
 )
 ]
 )
 pdm (PhysicalDM
 displayShortBounds 1
 editShortBounds 1
-uid 80,0
+uid 87,0
 optionalChildren [
 *17 (Sheet
 sheetRow (SheetRow
@@ -128,44 +129,44 @@ litem &1
 pos 3
 dimension 20
 )
-uid 82,0
+uid 89,0
 optionalChildren [
 *19 (MRCItem
 litem &2
 pos 0
 dimension 20
-uid 83,0
+uid 90,0
 )
 *20 (MRCItem
 litem &3
 pos 1
 dimension 23
-uid 84,0
+uid 91,0
 )
 *21 (MRCItem
 litem &4
 pos 2
 hidden 1
 dimension 20
-uid 85,0
+uid 92,0
 )
 *22 (MRCItem
 litem &14
 pos 0
 dimension 20
-uid 249,0
+uid 67,0
 )
 *23 (MRCItem
 litem &15
 pos 1
 dimension 20
-uid 251,0
+uid 69,0
 )
 *24 (MRCItem
 litem &16
 pos 2
 dimension 20
-uid 253,0
+uid 71,0
 )
 ]
 )
@@ -176,74 +177,74 @@ fontColor "0,0,0"
 font "courier,10,0"
 textAngle 90
 )
-uid 86,0
+uid 93,0
 optionalChildren [
 *25 (MRCItem
 litem &5
 pos 0
 dimension 20
-uid 87,0
+uid 94,0
 )
 *26 (MRCItem
 litem &7
 pos 1
 dimension 50
-uid 88,0
+uid 95,0
 )
 *27 (MRCItem
 litem &8
 pos 2
 dimension 100
-uid 89,0
+uid 96,0
 )
 *28 (MRCItem
 litem &9
 pos 3
 dimension 50
-uid 90,0
+uid 97,0
 )
 *29 (MRCItem
 litem &10
 pos 4
 dimension 100
-uid 91,0
+uid 98,0
 )
 *30 (MRCItem
 litem &11
 pos 5
 dimension 100
-uid 92,0
+uid 99,0
 )
 *31 (MRCItem
 litem &12
 pos 6
 dimension 50
-uid 93,0
+uid 100,0
 )
 *32 (MRCItem
 litem &13
 pos 7
 dimension 80
-uid 94,0
+uid 101,0
 )
 ]
 )
 fixedCol 4
 fixedRow 2
 name "Ports"
-uid 81,0
+uid 88,0
 vaOverrides [
 ]
 )
 ]
 )
-uid 66,0
+uid 73,0
 )
 genericsCommonDM (CommonDM
 ldm (LogicalDM
 emptyRow *33 (LEmptyRow
 )
-uid 96,0
+uid 103,0
 optionalChildren [
 *34 (RefLabelRowHdr
 )
@@ -280,7 +281,7 @@ tm "GenericEolColHdrMgr"
 pdm (PhysicalDM
 displayShortBounds 1
 editShortBounds 1
-uid 108,0
+uid 115,0
 optionalChildren [
 *45 (Sheet
 sheetRow (SheetRow
@@ -304,26 +305,26 @@ litem &33
 pos 3
 dimension 20
 )
-uid 110,0
+uid 117,0
 optionalChildren [
 *47 (MRCItem
 litem &34
 pos 0
 dimension 20
-uid 111,0
+uid 118,0
 )
 *48 (MRCItem
 litem &35
 pos 1
 dimension 23
-uid 112,0
+uid 119,0
 )
 *49 (MRCItem
 litem &36
 pos 2
 hidden 1
 dimension 20
-uid 113,0
+uid 120,0
 )
 ]
 )
@@ -334,85 +335,85 @@ fontColor "0,0,0"
 font "courier,10,0"
 textAngle 90
 )
-uid 114,0
+uid 121,0
 optionalChildren [
 *50 (MRCItem
 litem &37
 pos 0
 dimension 20
-uid 115,0
+uid 122,0
 )
 *51 (MRCItem
 litem &39
 pos 1
 dimension 50
-uid 116,0
+uid 123,0
 )
 *52 (MRCItem
 litem &40
 pos 2
 dimension 100
-uid 117,0
+uid 124,0
 )
 *53 (MRCItem
 litem &41
 pos 3
 dimension 100
-uid 118,0
+uid 125,0
 )
 *54 (MRCItem
 litem &42
 pos 4
 dimension 50
-uid 119,0
+uid 126,0
 )
 *55 (MRCItem
 litem &43
 pos 5
 dimension 50
-uid 120,0
+uid 127,0
 )
 *56 (MRCItem
 litem &44
 pos 6
 dimension 80
-uid 121,0
+uid 128,0
 )
 ]
 )
 fixedCol 3
 fixedRow 2
 name "Ports"
-uid 109,0
+uid 116,0
 vaOverrides [
 ]
 )
 ]
 )
-uid 95,0
+uid 102,0
 type 1
 )
 VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "/home/strasbe1/ece411/ece411_given/hdl"
+value "/home/strasbe1/ECE411/mp/hdl"
 )
 (vvPair
 variable "HDSDir"
-value "/home/strasbe1/ece411/ece411_given/hds"
+value "/home/strasbe1/ECE411/mp/hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/strasbe1/ece411/ece411_given/hds/@imm5/interface.info"
+value "/home/strasbe1/ECE411/mp/hds/@imm5/interface.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/strasbe1/ece411/ece411_given/hds/@imm5/interface.user"
+value "/home/strasbe1/ECE411/mp/hds/@imm5/interface.user"
 )
 (vvPair
 variable "SourceDir"
-value "/home/strasbe1/ece411/ece411_given/hds"
+value "/home/strasbe1/ECE411/mp/hds"
 )
 (vvPair
 variable "appl"
@@ -428,27 +429,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "/home/strasbe1/ece411/ece411_given/hds/@imm5"
+value "/home/strasbe1/ECE411/mp/hds/@imm5"
 )
 (vvPair
 variable "d_logical"
-value "/home/strasbe1/ece411/ece411_given/hds/Imm5"
+value "/home/strasbe1/ECE411/mp/hds/Imm5"
 )
 (vvPair
 variable "date"
-value "02/01/14"
+value "02/07/14"
 )
 (vvPair
 variable "day"
-value "Sat"
+value "Fri"
 )
 (vvPair
 variable "day_long"
-value "Saturday"
+value "Friday"
 )
 (vvPair
 variable "dd"
-value "01"
+value "07"
 )
 (vvPair
 variable "entity_name"
@@ -476,7 +477,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "gelib-057-26.ews.illinois.edu"
+value "gelib-057-39.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -508,11 +509,11 @@ value "February"
 )
 (vvPair
 variable "p"
-value "/home/strasbe1/ece411/ece411_given/hds/@imm5/interface"
+value "/home/strasbe1/ECE411/mp/hds/@imm5/interface"
 )
 (vvPair
 variable "p_logical"
-value "/home/strasbe1/ece411/ece411_given/hds/Imm5/interface"
+value "/home/strasbe1/ECE411/mp/hds/Imm5/interface"
 )
 (vvPair
 variable "package_name"
@@ -568,7 +569,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "16:10:22"
+value "18:14:48"
 )
 (vvPair
 variable "unit"
@@ -597,146 +598,144 @@ value "14"
 ]
 )
 LanguageMgr "VhdlLangMgr"
-uid 65,0
+uid 72,0
 optionalChildren [
 *57 (SymbolBody
 uid 8,0
 optionalChildren [
 *58 (CptPort
-uid 233,0
+uid 51,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 234,0
+uid 52,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "16625,5250,17375,6000"
+xt "15625,5250,16375,6000"
 )
 tg (CPTG
-uid 235,0
+uid 53,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 236,0
+uid 54,0
 ro 270
 va (VaSet
 font "courier,8,0"
 )
-xt "16550,7000,17450,10500"
+xt "15550,7000,16450,10500"
 st "Imm5out"
 ju 2
-blo "17250,7000"
+blo "16250,7000"
 tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 237,0
+uid 55,0
 va (VaSet
 font "courier,8,0"
 )
 xt "44000,3600,59500,4500"
-st "Imm5out    : OUT    LC3b_word 
-"
+st "Imm5out    : OUT    LC3b_word "
 )
 thePort (LogicalPort
 m 1
 decl (Decl
 n "Imm5out"
 t "LC3b_word"
-o 48
-suid 9,0
+o 46
+suid 1,0
 )
 )
 )
 *59 (CptPort
-uid 238,0
+uid 56,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 239,0
+uid 57,0
 ro 90
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "14250,10625,15000,11375"
+xt "14250,8625,15000,9375"
 )
 tg (CPTG
-uid 240,0
+uid 58,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 241,0
+uid 59,0
 va (VaSet
 font "courier,8,0"
 )
-xt "16000,10550,21500,11450"
+xt "16000,8550,21500,9450"
 st "immediate5"
-blo "16000,11250"
+blo "16000,9250"
 tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 242,0
+uid 60,0
 va (VaSet
 font "courier,8,0"
 )
 xt "44000,2700,60500,3600"
-st "immediate5 : IN     LC3b_imm5  ;
-"
+st "immediate5 : IN     LC3b_imm5  ;"
 )
 thePort (LogicalPort
 lang 11
 decl (Decl
 n "immediate5"
 t "LC3b_imm5"
-o 47
-suid 10,0
+o 72
+suid 2,0
 )
 )
 )
 *60 (CptPort
-uid 243,0
+uid 61,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 244,0
+uid 62,0
 ro 90
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "14250,11625,15000,12375"
+xt "14250,9625,15000,10375"
 )
 tg (CPTG
-uid 245,0
+uid 63,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 246,0
+uid 64,0
 va (VaSet
 font "courier,8,0"
 )
-xt "16000,11550,17500,12450"
+xt "16000,9550,17500,10450"
 st "clk"
-blo "16000,12250"
+blo "16000,10250"
 tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 247,0
+uid 65,0
 va (VaSet
 font "courier,8,0"
 )
 xt "44000,1800,60500,2700"
-st "clk        : IN     std_logic  ;
-"
+st "clk        : IN     std_logic  ;"
 )
 thePort (LogicalPort
+lang 11
 decl (Decl
 n "clk"
 t "std_logic"
-o 16
-suid 11,0
+o 25
+suid 3,0
 )
 )
 )
@@ -749,9 +748,8 @@ fg "0,65535,0"
 lineColor "0,32896,0"
 lineWidth 2
 )
-xt "15000,6000,24000,13000"
+xt "15000,6000,24000,11000"
 )
-oxt "15000,6000,21000,13000"
 biTextGroup (BiTextGroup
 uid 10,0
 ps "CenterOffsetStrategy"
@@ -761,18 +759,18 @@ uid 11,0
 va (VaSet
 font "courier,8,1"
 )
-xt "18000,8600,21000,9500"
+xt "18000,7600,21000,8500"
 st "ece411"
-blo "18000,9300"
+blo "18000,8300"
 )
 second (Text
 uid 12,0
 va (VaSet
 font "courier,8,1"
 )
-xt "18000,9500,20000,10400"
+xt "18000,8500,20000,9400"
 st "Imm5"
-blo "18000,10200"
+blo "18000,9200"
 )
 )
 gi *61 (GenericInterface
@@ -785,7 +783,7 @@ uid 15,0
 va (VaSet
 font "courier,8,0"
 )
-xt "-10500,3500,0,4400"
+xt "-10000,4000,500,4900"
 st "Generic Declarations"
 )
 header "Generic Declarations"
@@ -1451,6 +1449,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 253,0
+lastUid 128,0
 activeModelName "Symbol:CDM"
 )

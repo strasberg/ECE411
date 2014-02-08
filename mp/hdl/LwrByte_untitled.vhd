@@ -19,7 +19,8 @@ ENTITY LwrByte IS
       MDRout     : IN     LC3b_word;
       clk        : IN     std_logic;
       LwrByteSel : IN     std_logic;
-      LwrByteout : OUT    LC3b_word
+      LwrByteout : OUT    LC3b_word;
+      Addr0      : IN     std_logic
    );
 
 -- Declarations
@@ -29,19 +30,23 @@ END LwrByte ;
 --
 ARCHITECTURE untitled OF LwrByte IS
 BEGIN
-  PROCESS (MDRout, LwrByteSEL)
-  Constant lowerBits : LC3b_word := "0000000011111111";
+  PROCESS (MDRout, LwrByteSEL, Addr0)
+  Constant lowerBits  : LC3b_word := "0000000011111111";
+  Constant higherBits : LC3b_word := "1111111100000000";
 	VARIABLE STATE : LC3b_word;
 	BEGIN
 		CASE LwrByteSel IS
 			WHEN '0' =>
 				STATE := MDRout;
 			WHEN '1' =>
-				STATE := (MDRout AND lowerBits);
+			  if( Addr0 = '1') then
+			    STATE := std_logic_vector("srl"(unsigned(MDRout AND higherBits), 8));
+			  else
+				  STATE := (MDRout AND lowerBits);
+				end if;
 			WHEN OTHERS =>
 				STATE := (OTHERS => 'X');
 		END CASE;
 	LwrByteout <= STATE AFTER DELAY_ALU;
 	END PROCESS;
 END ARCHITECTURE untitled;
-

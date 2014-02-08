@@ -20,8 +20,6 @@ stb r7, r0, HighSByte ;6
 ;*only* MWRITEH_L is active (=0).
 ;M[11] <= 4x60
 
-;HALT:                     ; Infinite loop to keep the processor
-;BRnzp HALT             ; from trying to execute the data below.
 
 LowByte: DATA1 4x0D ;8
 HighByte: DATA1 4x60 ;9

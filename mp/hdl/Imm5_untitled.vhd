@@ -30,4 +30,3 @@ ARCHITECTURE untitled OF Imm5 IS
 BEGIN
   Imm5out <= immediate5(4) & immediate5(4) & immediate5(4) & immediate5(4) & immediate5(4) & immediate5(4) & immediate5(4) & immediate5(4) & immediate5(4) & immediate5(4) & immediate5(4) & Immediate5 AFTER DELAY_MUX2;
 END ARCHITECTURE untitled;
-
