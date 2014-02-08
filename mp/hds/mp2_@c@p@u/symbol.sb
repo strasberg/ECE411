@@ -455,7 +455,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "gelib-057-39.ews.illinois.edu"
+value "siebl-0403-29.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -547,7 +547,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "19:04:22"
+value "23:33:50"
 )
 (vvPair
 variable "unit"
@@ -1378,7 +1378,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 839,0
+lastUid 885,0
 okToSyncOnLoad 1
 activeModelName "Symbol"
 )
