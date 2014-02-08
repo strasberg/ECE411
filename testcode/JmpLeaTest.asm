@@ -1,4 +1,4 @@
-Origin 0
+ Origin 0
 SEGMENT  CodeSegment:
    ADD R0, R0, 1
    LEA R7, HALT

@@ -1,3 +1,4 @@
+Origin 0
 SEGMENT  CodeSegment:
    LDR  R1, R0, INPUT     ; R1 <= Number to do factorial for
    ADD  R3, R0, R1        ; R3 <= R0 + R1 

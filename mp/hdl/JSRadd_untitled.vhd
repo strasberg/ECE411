@@ -17,9 +17,9 @@ USE ece411.LC3b_types.all;
 ENTITY JSRadd IS
    PORT( 
       Offset11out : IN     LC3B_word;
-      PCOUT       : IN     LC3B_word;
       clk         : IN     std_logic;
-      JSRaddout   : OUT    LC3b_word
+      JSRaddout   : OUT    LC3b_word;
+      PCOUT       : IN     LC3B_word
    );
 
 -- Declarations
@@ -29,9 +29,9 @@ END JSRadd ;
 --
 ARCHITECTURE untitled OF JSRadd IS
 BEGIN
-  VHDL_JSRadd : PROCESS (PCout, Offset11out)
+  VHDL_JSRadd : PROCESS (PCOUT, Offset11out)
 	BEGIN 
-		  JSRaddout <= STD_LOGIC_VECTOR(SIGNED(PCout) + SIGNED(Offset11out)) AFTER DELAY_ADDER;
+		  JSRaddout <= STD_LOGIC_VECTOR(SIGNED(PCOUT) + SIGNED(Offset11out)) AFTER DELAY_ADDER;
 	END PROCESS;
 END ARCHITECTURE untitled;
 

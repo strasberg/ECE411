@@ -1,5 +1,5 @@
 ORIGIN 0
-SEGMENT        CodeSegment:	; Version 0.11  1/13/2005 
+SEGMENT  CodeSegment:	; Version 0.11  1/13/2005 
 	LEA R0, DataSegment
 	LDR R1, R0, ZERO
 	LDR R2, R0, ONETWELVE
