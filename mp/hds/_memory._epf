@@ -1,2 +1,2 @@
-DEFAULT_ARCHITECTURE atom untitled
-DEFAULT_FILE atom Memory_untitled.vhd
+DEFAULT_ARCHITECTURE atom struct
+DEFAULT_FILE atom @memory/struct.bd

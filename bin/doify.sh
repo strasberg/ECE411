@@ -24,7 +24,7 @@ fi
 
 #this is an example of how setting up multiple DRAMS might look
 #DEFAULT_MEMPATHS="/mp1_cpu/idram/vhdl_memory,/mp1_cpu/ddram/vhdl_memory"
-DEFAULT_MEMPATHS="/mp2_cpu/dram/vhdl_memory"
+DEFAULT_MEMPATHS="/mp2_cpu/dram/pdram/vhdl_memory"
 DEFAULT_COMPILEPATH="/home/strasbe1/ECE411/mp/compile"
 
 NAME=${1%\.*}			

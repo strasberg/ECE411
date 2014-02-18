@@ -1,0 +1,38 @@
+--
+-- VHDL Architecture ece411.DataOutBreakup.untitled
+--
+-- Created:
+--          by - strasbe1.ews (gelib-057-05.ews.illinois.edu)
+--          at - 19:41:02 02/17/14
+--
+-- using Mentor Graphics HDL Designer(TM) 2012.1 (Build 6)
+--
+LIBRARY ieee; 
+USE ieee.std_logic_1164.all; 
+USE ieee.NUMERIC_STD.all; 
+ 
+LIBRARY ece411; 
+USE ece411.LC3b_types.all; 
+
+ENTITY DataOutBreakup IS
+   PORT( 
+      PMDATAOUT : IN     LC3B_OWORD;
+      word0     : OUT    LC3B_WORD;
+      word1     : OUT    LC3B_WORD;
+      word2     : OUT    LC3B_WORD;
+      word3     : OUT    LC3B_WORD;
+      word4     : OUT    LC3B_WORD;
+      word5     : OUT    LC3B_WORD;
+      word6     : OUT    LC3B_WORD;
+      word7     : OUT    LC3B_WORD
+   );
+
+-- Declarations
+
+END DataOutBreakup ;
+
+--
+ARCHITECTURE untitled OF DataOutBreakup IS
+BEGIN
+END ARCHITECTURE untitled;
+

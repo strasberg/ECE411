@@ -1,0 +1,32 @@
+--
+-- VHDL Architecture ece411.StdLogicAnd2.untitled
+--
+-- Created:
+--          by - strasbe1.ews (gelib-057-13.ews.illinois.edu)
+--          at - 16:45:06 02/15/14
+--
+-- using Mentor Graphics HDL Designer(TM) 2012.1 (Build 6)
+--
+LIBRARY ieee; 
+USE ieee.std_logic_1164.all; 
+USE ieee.NUMERIC_STD.all; 
+ 
+LIBRARY ece411; 
+USE ece411.LC3b_types.all; 
+
+ENTITY StdLogicAnd2 IS
+   PORT( 
+      A : IN     STD_LOGIC;
+      B : IN     STD_Logic;
+      C : OUT    STD_LOGIC
+   );
+
+-- Declarations
+
+END StdLogicAnd2 ;
+
+--
+ARCHITECTURE untitled OF StdLogicAnd2 IS
+BEGIN
+END ARCHITECTURE untitled;
+

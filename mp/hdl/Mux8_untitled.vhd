@@ -1,0 +1,64 @@
+--
+-- VHDL Architecture ece411.Mux8.untitled
+--
+-- Created:
+--          by - strasbe1.ews (gelib-057-05.ews.illinois.edu)
+--          at - 19:52:38 02/17/14
+--
+-- using Mentor Graphics HDL Designer(TM) 2012.1 (Build 6)
+--
+LIBRARY ieee; 
+USE ieee.std_logic_1164.all; 
+USE ieee.NUMERIC_STD.all; 
+ 
+LIBRARY ece411; 
+USE ece411.LC3b_types.all; 
+
+ENTITY Mux8 IS
+   PORT( 
+      dataOutsel : IN     LC3B_8MUX_SEL;
+      word0      : IN     LC3B_WORD;
+      word1      : IN     LC3B_WORD;
+      word2      : IN     LC3B_WORD;
+      word3      : IN     LC3B_WORD;
+      word4      : IN     LC3B_WORD;
+      word5      : IN     LC3B_WORD;
+      word6      : IN     LC3B_WORD;
+      word7      : IN     LC3B_WORD;
+      DATAIN     : OUT    LC3b_word
+   );
+
+-- Declarations
+
+END Mux8 ;
+
+--
+ARCHITECTURE untitled OF Mux8 IS
+BEGIN
+  PROCESS (word0, word1, word2, word3, word4, word5, word6, word7, dataOutSel)
+	VARIABLE STATE : LC3B_WORD;
+	BEGIN
+		CASE dataOutSel IS
+			WHEN "000" =>
+				STATE := word0;
+			WHEN "001" =>
+				STATE := word1;
+			WHEN "010" =>
+				STATE := word2;
+			WHEN "011" =>
+				STATE := word3;
+			WHEN "100" =>
+				STATE := word4;
+			WHEN "101" =>
+				STATE := word5;
+			WHEN "110" =>
+				STATE := word6;
+			WHEN "111" =>
+				STATE := word7;
+			WHEN OTHERS =>
+				STATE := (OTHERS => 'X');
+		END CASE;
+	DATAIN <= STATE AFTER DELAY_MUX8;
+	END PROCESS;
+END ARCHITECTURE untitled;
+

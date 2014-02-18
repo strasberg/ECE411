@@ -70,7 +70,7 @@ m 1
 decl (Decl
 n "ADDRESS"
 t "LC3b_word"
-o 8
+o 26
 suid 540,0
 )
 )
@@ -81,7 +81,7 @@ port (LogicalPort
 decl (Decl
 n "DATAIN"
 t "LC3b_word"
-o 9
+o 4
 suid 541,0
 )
 )
@@ -93,7 +93,7 @@ m 1
 decl (Decl
 n "DATAOUT"
 t "LC3b_word"
-o 7
+o 32
 suid 542,0
 )
 )
@@ -104,7 +104,7 @@ port (LogicalPort
 decl (Decl
 n "RESET_L"
 t "std_logic"
-o 6
+o 19
 suid 543,0
 )
 )
@@ -117,7 +117,7 @@ m 1
 decl (Decl
 n "A"
 t "std_logic"
-o 38
+o 25
 suid 544,0
 )
 )
@@ -130,7 +130,7 @@ m 1
 decl (Decl
 n "Addr0"
 t "std_logic"
-o 42
+o 27
 suid 545,0
 )
 )
@@ -141,7 +141,7 @@ port (LogicalPort
 decl (Decl
 n "ADJ6Sel"
 t "std_logic"
-o 37
+o 1
 suid 546,0
 )
 )
@@ -152,7 +152,7 @@ port (LogicalPort
 decl (Decl
 n "ALUMuxSel"
 t "std_logic"
-o 10
+o 2
 suid 547,0
 )
 )
@@ -163,7 +163,7 @@ port (LogicalPort
 decl (Decl
 n "ALUop"
 t "LC3b_aluop"
-o 10
+o 3
 suid 548,0
 )
 )
@@ -175,7 +175,7 @@ m 1
 decl (Decl
 n "CheckN"
 t "std_logic"
-o 23
+o 28
 suid 549,0
 )
 )
@@ -187,7 +187,7 @@ m 1
 decl (Decl
 n "CheckP"
 t "std_logic"
-o 23
+o 29
 suid 550,0
 )
 )
@@ -199,7 +199,7 @@ m 1
 decl (Decl
 n "CheckZ"
 t "std_logic"
-o 23
+o 30
 suid 551,0
 )
 )
@@ -211,7 +211,7 @@ lang 11
 decl (Decl
 n "clk"
 t "std_logic"
-o 30
+o 24
 suid 552,0
 )
 )
@@ -224,7 +224,7 @@ m 1
 decl (Decl
 n "D"
 t "std_logic"
-o 39
+o 31
 suid 553,0
 )
 )
@@ -235,7 +235,7 @@ port (LogicalPort
 decl (Decl
 n "DestSel"
 t "std_logic"
-o 33
+o 5
 suid 554,0
 )
 )
@@ -246,7 +246,7 @@ port (LogicalPort
 decl (Decl
 n "JMPSel"
 t "std_logic"
-o 31
+o 6
 suid 555,0
 )
 )
@@ -257,7 +257,7 @@ port (LogicalPort
 decl (Decl
 n "JSRSel"
 t "std_logic"
-o 34
+o 7
 suid 556,0
 )
 )
@@ -268,7 +268,7 @@ port (LogicalPort
 decl (Decl
 n "LDIMuxSel"
 t "std_logic"
-o 36
+o 8
 suid 557,0
 )
 )
@@ -279,7 +279,7 @@ port (LogicalPort
 decl (Decl
 n "LEASel"
 t "std_logic"
-o 32
+o 9
 suid 558,0
 )
 )
@@ -290,7 +290,7 @@ port (LogicalPort
 decl (Decl
 n "LoadIR"
 t "std_logic"
-o 12
+o 10
 suid 559,0
 )
 )
@@ -301,7 +301,7 @@ port (LogicalPort
 decl (Decl
 n "LoadMAR"
 t "std_logic"
-o 12
+o 11
 suid 560,0
 )
 )
@@ -323,7 +323,7 @@ port (LogicalPort
 decl (Decl
 n "LoadNZP"
 t "std_logic"
-o 12
+o 13
 suid 562,0
 )
 )
@@ -334,7 +334,7 @@ port (LogicalPort
 decl (Decl
 n "LoadPC"
 t "std_logic"
-o 12
+o 14
 suid 563,0
 )
 )
@@ -345,7 +345,7 @@ port (LogicalPort
 decl (Decl
 n "LwrByteSel"
 t "std_logic"
-o 35
+o 15
 suid 564,0
 )
 )
@@ -356,7 +356,7 @@ port (LogicalPort
 decl (Decl
 n "MARMuxSel"
 t "std_logic"
-o 12
+o 16
 suid 565,0
 )
 )
@@ -367,7 +367,7 @@ port (LogicalPort
 decl (Decl
 n "MDRMuxSel"
 t "std_logic"
-o 12
+o 17
 suid 566,0
 )
 )
@@ -379,7 +379,7 @@ m 1
 decl (Decl
 n "n"
 t "std_logic"
-o 23
+o 34
 suid 567,0
 )
 )
@@ -391,7 +391,7 @@ m 1
 decl (Decl
 n "Opcode"
 t "LC3b_opcode"
-o 23
+o 33
 suid 568,0
 )
 )
@@ -403,7 +403,7 @@ m 1
 decl (Decl
 n "p"
 t "std_logic"
-o 23
+o 35
 suid 569,0
 )
 )
@@ -414,7 +414,7 @@ port (LogicalPort
 decl (Decl
 n "PCMuxSel"
 t "std_logic"
-o 12
+o 18
 suid 570,0
 )
 )
@@ -425,7 +425,7 @@ port (LogicalPort
 decl (Decl
 n "RegWrite"
 t "std_logic"
-o 12
+o 21
 suid 571,0
 )
 )
@@ -436,7 +436,7 @@ port (LogicalPort
 decl (Decl
 n "RFMuxSel"
 t "std_logic"
-o 12
+o 20
 suid 572,0
 )
 )
@@ -447,7 +447,7 @@ port (LogicalPort
 decl (Decl
 n "StoreSR"
 t "std_logic"
-o 12
+o 22
 suid 573,0
 )
 )
@@ -458,7 +458,7 @@ port (LogicalPort
 decl (Decl
 n "TrapSel"
 t "std_logic"
-o 41
+o 23
 suid 574,0
 )
 )
@@ -470,7 +470,7 @@ m 1
 decl (Decl
 n "z"
 t "std_logic"
-o 23
+o 36
 suid 575,0
 )
 )
@@ -1143,7 +1143,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "23:33:49"
+value "23:37:40"
 )
 (vvPair
 variable "unit"
@@ -1218,7 +1218,7 @@ m 1
 decl (Decl
 n "ADDRESS"
 t "LC3b_word"
-o 8
+o 26
 suid 540,0
 )
 )
@@ -1263,7 +1263,7 @@ thePort (LogicalPort
 decl (Decl
 n "DATAIN"
 t "LC3b_word"
-o 9
+o 4
 suid 541,0
 )
 )
@@ -1309,7 +1309,7 @@ m 1
 decl (Decl
 n "DATAOUT"
 t "LC3b_word"
-o 7
+o 32
 suid 542,0
 )
 )
@@ -1356,7 +1356,7 @@ thePort (LogicalPort
 decl (Decl
 n "RESET_L"
 t "std_logic"
-o 6
+o 19
 suid 543,0
 )
 )
@@ -1404,7 +1404,7 @@ m 1
 decl (Decl
 n "A"
 t "std_logic"
-o 38
+o 25
 suid 544,0
 )
 )
@@ -1452,7 +1452,7 @@ m 1
 decl (Decl
 n "Addr0"
 t "std_logic"
-o 42
+o 27
 suid 545,0
 )
 )
@@ -1497,7 +1497,7 @@ thePort (LogicalPort
 decl (Decl
 n "ADJ6Sel"
 t "std_logic"
-o 37
+o 1
 suid 546,0
 )
 )
@@ -1542,7 +1542,7 @@ thePort (LogicalPort
 decl (Decl
 n "ALUMuxSel"
 t "std_logic"
-o 10
+o 2
 suid 547,0
 )
 )
@@ -1587,7 +1587,7 @@ thePort (LogicalPort
 decl (Decl
 n "ALUop"
 t "LC3b_aluop"
-o 10
+o 3
 suid 548,0
 )
 )
@@ -1634,7 +1634,7 @@ m 1
 decl (Decl
 n "CheckN"
 t "std_logic"
-o 23
+o 28
 suid 549,0
 )
 )
@@ -1681,7 +1681,7 @@ m 1
 decl (Decl
 n "CheckP"
 t "std_logic"
-o 23
+o 29
 suid 550,0
 )
 )
@@ -1728,7 +1728,7 @@ m 1
 decl (Decl
 n "CheckZ"
 t "std_logic"
-o 23
+o 30
 suid 551,0
 )
 )
@@ -1774,7 +1774,7 @@ lang 11
 decl (Decl
 n "clk"
 t "std_logic"
-o 30
+o 24
 suid 552,0
 )
 )
@@ -1822,7 +1822,7 @@ m 1
 decl (Decl
 n "D"
 t "std_logic"
-o 39
+o 31
 suid 553,0
 )
 )
@@ -1867,7 +1867,7 @@ thePort (LogicalPort
 decl (Decl
 n "DestSel"
 t "std_logic"
-o 33
+o 5
 suid 554,0
 )
 )
@@ -1912,7 +1912,7 @@ thePort (LogicalPort
 decl (Decl
 n "JMPSel"
 t "std_logic"
-o 31
+o 6
 suid 555,0
 )
 )
@@ -1957,7 +1957,7 @@ thePort (LogicalPort
 decl (Decl
 n "JSRSel"
 t "std_logic"
-o 34
+o 7
 suid 556,0
 )
 )
@@ -2002,7 +2002,7 @@ thePort (LogicalPort
 decl (Decl
 n "LDIMuxSel"
 t "std_logic"
-o 36
+o 8
 suid 557,0
 )
 )
@@ -2047,7 +2047,7 @@ thePort (LogicalPort
 decl (Decl
 n "LEASel"
 t "std_logic"
-o 32
+o 9
 suid 558,0
 )
 )
@@ -2092,7 +2092,7 @@ thePort (LogicalPort
 decl (Decl
 n "LoadIR"
 t "std_logic"
-o 12
+o 10
 suid 559,0
 )
 )
@@ -2137,7 +2137,7 @@ thePort (LogicalPort
 decl (Decl
 n "LoadMAR"
 t "std_logic"
-o 12
+o 11
 suid 560,0
 )
 )
@@ -2227,7 +2227,7 @@ thePort (LogicalPort
 decl (Decl
 n "LoadNZP"
 t "std_logic"
-o 12
+o 13
 suid 562,0
 )
 )
@@ -2272,7 +2272,7 @@ thePort (LogicalPort
 decl (Decl
 n "LoadPC"
 t "std_logic"
-o 12
+o 14
 suid 563,0
 )
 )
@@ -2317,7 +2317,7 @@ thePort (LogicalPort
 decl (Decl
 n "LwrByteSel"
 t "std_logic"
-o 35
+o 15
 suid 564,0
 )
 )
@@ -2362,7 +2362,7 @@ thePort (LogicalPort
 decl (Decl
 n "MARMuxSel"
 t "std_logic"
-o 12
+o 16
 suid 565,0
 )
 )
@@ -2407,7 +2407,7 @@ thePort (LogicalPort
 decl (Decl
 n "MDRMuxSel"
 t "std_logic"
-o 12
+o 17
 suid 566,0
 )
 )
@@ -2454,7 +2454,7 @@ m 1
 decl (Decl
 n "n"
 t "std_logic"
-o 23
+o 34
 suid 567,0
 )
 )
@@ -2501,7 +2501,7 @@ m 1
 decl (Decl
 n "Opcode"
 t "LC3b_opcode"
-o 23
+o 33
 suid 568,0
 )
 )
@@ -2548,7 +2548,7 @@ m 1
 decl (Decl
 n "p"
 t "std_logic"
-o 23
+o 35
 suid 569,0
 )
 )
@@ -2593,7 +2593,7 @@ thePort (LogicalPort
 decl (Decl
 n "PCMuxSel"
 t "std_logic"
-o 12
+o 18
 suid 570,0
 )
 )
@@ -2638,7 +2638,7 @@ thePort (LogicalPort
 decl (Decl
 n "RegWrite"
 t "std_logic"
-o 12
+o 21
 suid 571,0
 )
 )
@@ -2683,7 +2683,7 @@ thePort (LogicalPort
 decl (Decl
 n "RFMuxSel"
 t "std_logic"
-o 12
+o 20
 suid 572,0
 )
 )
@@ -2728,7 +2728,7 @@ thePort (LogicalPort
 decl (Decl
 n "StoreSR"
 t "std_logic"
-o 12
+o 22
 suid 573,0
 )
 )
@@ -2773,7 +2773,7 @@ thePort (LogicalPort
 decl (Decl
 n "TrapSel"
 t "std_logic"
-o 41
+o 23
 suid 574,0
 )
 )
@@ -2820,7 +2820,7 @@ m 1
 decl (Decl
 n "z"
 t "std_logic"
-o 23
+o 36
 suid 575,0
 )
 )
@@ -3536,7 +3536,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 6547,0
+lastUid 6570,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol:CDM"

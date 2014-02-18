@@ -1,0 +1,33 @@
+--
+-- VHDL Architecture ece411.Mux2Oword.untitled
+--
+-- Created:
+--          by - strasbe1.ews (evrt-252-36.ews.illinois.edu)
+--          at - 15:07:20 02/14/14
+--
+-- using Mentor Graphics HDL Designer(TM) 2012.1 (Build 6)
+--
+LIBRARY ieee; 
+USE ieee.std_logic_1164.all; 
+USE ieee.NUMERIC_STD.all; 
+ 
+LIBRARY ece411; 
+USE ece411.LC3b_types.all; 
+
+ENTITY Mux2Oword IS
+   PORT( 
+      CLK       : IN     STD_LOGIC;
+      DATAOUT   : IN     LC3b_oword;
+      DataOut1  : IN     LC3B_OWORD;
+      PMDATAOUT : OUT    LC3B_OWORD
+   );
+
+-- Declarations
+
+END Mux2Oword ;
+
+--
+ARCHITECTURE untitled OF Mux2Oword IS
+BEGIN
+END ARCHITECTURE untitled;
+

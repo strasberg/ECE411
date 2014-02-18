@@ -1,3 +1,4 @@
+JSR test
 Origin 0
 SEGMENT  CodeSegment:
    ADD R0, R0, HALT;

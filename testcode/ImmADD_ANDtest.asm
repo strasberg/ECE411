@@ -1,3 +1,4 @@
+; Test for immediate and AND
 Origin 0
 SEGMENT  CodeSegment:
    ADD  R1, R1, 5        ; R1 <= R1 + 5

@@ -1,3 +1,4 @@
+; SHFT test
 Origin 0
 SEGMENT  CodeSegment:
 
