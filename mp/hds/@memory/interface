@@ -540,19 +540,19 @@ value "/home/strasbe1/ECE411/mp/hds/Memory"
 )
 (vvPair
 variable "date"
-value "02/15/14"
+value "02/19/14"
 )
 (vvPair
 variable "day"
-value "Sat"
+value "Wed"
 )
 (vvPair
 variable "day_long"
-value "Saturday"
+value "Wednesday"
 )
 (vvPair
 variable "dd"
-value "15"
+value "19"
 )
 (vvPair
 variable "entity_name"
@@ -580,7 +580,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "gelib-057-13.ews.illinois.edu"
+value "gelib-057-40.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -672,7 +672,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "17:18:26"
+value "23:07:02"
 )
 (vvPair
 variable "unit"
@@ -1828,6 +1828,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 630,0
+lastUid 929,0
 activeModelName "Symbol:CDM"
 )

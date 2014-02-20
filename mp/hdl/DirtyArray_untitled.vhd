@@ -47,14 +47,14 @@ TYPE DirtyArray IS array (7 downto 0) of std_logic;
 			BEGIN
 				DirtyIndex := to_integer(unsigned(Index));
 			IF RESET_L = '0' THEN
-				Dirty(0) <= (OTHERS => 'X');
-				Dirty(1) <= (OTHERS => 'X');
-				Dirty(2) <= (OTHERS => 'X');
-				Dirty(3) <= (OTHERS => 'X');
-				Dirty(4) <= (OTHERS => 'X');
-				Dirty(5) <= (OTHERS => 'X');
-				Dirty(6) <= (OTHERS => 'X');
-				Dirty(7) <= (OTHERS => 'X');
+				Dirty(0) <= 'X';
+				Dirty(1) <= 'X';
+				Dirty(2) <= 'X';
+				Dirty(3) <= 'X';
+				Dirty(4) <= 'X';
+				Dirty(5) <= 'X';
+				Dirty(6) <= 'X';
+				Dirty(7) <= 'X';
 			END IF;
 
 			IF (DataWrite = '1') THEN

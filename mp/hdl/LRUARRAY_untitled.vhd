@@ -18,9 +18,9 @@ ENTITY LRUARRAY IS
    PORT( 
       LRUOut   : OUT    std_logic;
       LRUWrite : IN     std_logic;
-      LRUIN    : IN     std_logic;
       Index    : IN     LC3B_C_INDEX;
-      Reset_L  : IN     std_logic
+      Reset_L  : IN     std_logic;
+      LRUIN    : IN     std_logic
    );
 
 -- Declarations

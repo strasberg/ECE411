@@ -58,7 +58,7 @@ TYPE DirtyArray IS array (7 downto 0) of std_logic;
 			END IF;
 
 			IF (DataWrite = '1') THEN
-				Dirty(DirtyIndex) <= '0';
+				Dirty(DirtyIndex) <= '0'; --for now never dirty, need to change to be 1 if any str instr happens
 			END IF;
 		
 		END PROCESS WriteToDirtyArray;
