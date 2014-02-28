@@ -1,0 +1,2 @@
+DEFAULT_FILE atom @cache_@controllerr/fsm.sm
+DEFAULT_ARCHITECTURE atom fsm

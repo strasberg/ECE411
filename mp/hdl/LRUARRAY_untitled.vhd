@@ -16,11 +16,11 @@ USE ece411.LC3b_types.all;
 
 ENTITY LRUARRAY IS
    PORT( 
-      LRUOut   : OUT    std_logic;
       LRUWrite : IN     std_logic;
       Index    : IN     LC3B_C_INDEX;
       Reset_L  : IN     std_logic;
-      LRUIN    : IN     std_logic
+      LRUIN    : IN     std_logic;
+      LRUOut   : OUT    std_logic
    );
 
 -- Declarations
@@ -61,7 +61,7 @@ ARCHITECTURE untitled OF LRUARRAY IS
 			END IF;
 
 			IF (LRUWrite = '1') THEN
-				LRU(LRUIndex) <= LRUIn;
+				LRU(LRUIndex) <= LRUIN;
 			END IF;
 		
 		END PROCESS WriteToLRUArray;

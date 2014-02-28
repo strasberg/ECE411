@@ -1,0 +1,852 @@
+# //  ModelSim SE 10.1d Nov  1 2012 Linux 2.6.32-358.23.2.el6.x86_64
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# vsim -L ece411 -l transcript.txt -i -multisource_delay latest -t ns +typdelays -foreign {hdsInit /software/mentor/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll} -pli {"/software/mentor/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll"} ece411.mp2_CPU(struct) 
+# Loading /software/mentor/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.lc3b_types(body)
+# Loading work.mp2_cpu(struct)#1
+# Loading work.clkgen(untitled)#1
+# Loading work.control(fsm)#1
+# Loading work.datapath(struct)#1
+# Loading work.adj11(untitled)#1
+# Loading work.adj6(untitled)#1
+# Loading work.adj6noshft(untitled)#1
+# Loading work.adj9(untitled)#1
+# Loading work.alu(untitled)#1
+# Loading work.addrlowestbit(untitled)#1
+# Loading work.bradd(untitled)#1
+# Loading work.gencc(untitled)#1
+# Loading work.ir(untitled)#1
+# Loading work.imm5(untitled)#1
+# Loading work.jsradd(untitled)#1
+# Loading work.lwrbyte(untitled)#1
+# Loading work.nzp(untitled)#1
+# Loading work.nzpsplit(untitled)#1
+# Loading work.plus2(untitled)#1
+# Loading work.reg16(untitled)#1
+# Loading work.regfile(untitled)#1
+# Loading work.storemux(untitled)#1
+# Loading work.wordmux2(untitled)#1
+# Loading work.zext8(untitled)#1
+# Loading work.destmux(untitled)#1
+# Loading work.memory(struct)#1
+# ** Error: ** Error: (vsim-7) Failed to open  file "/home/strasbe1/ECE411/mp/compile/@_opt/vopti3wj5e" in r mode.
+# No such file or directory. (errno = ENOENT)
+# 
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_Cont
+# ** Error: (vsim-3171) Could not find machine code for '/home/strasbe1/ECE411/mp/compile.cache_controller(fsm)'.
+# No such file or directory. (errno = ENOENT)
+# Load interrupted
+# Error loading design
+dow wave.do
+# ambiguous command name "dow": down downarrow
+do wave.do
+do wave.do
+# hds_restart 
+vsim -L ece411 -l transcript.txt -i -t ns -multisource_delay latest +typdelays ece411.mp2_CPU(struct)
+# vsim -L ece411 -l transcript.txt -i -multisource_delay latest -t ns +typdelays -foreign {hdsInit /software/mentor/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll} -pli {"/software/mentor/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll"} ece411.mp2_CPU(struct) 
+# Loading /software/mentor/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.lc3b_types(body)
+# Loading work.mp2_cpu(struct)#1
+# Loading work.clkgen(untitled)#1
+# Loading work.control(fsm)#1
+# Loading work.datapath(struct)#1
+# Loading work.adj11(untitled)#1
+# Loading work.adj6(untitled)#1
+# Loading work.adj6noshft(untitled)#1
+# Loading work.adj9(untitled)#1
+# Loading work.alu(untitled)#1
+# Loading work.addrlowestbit(untitled)#1
+# Loading work.bradd(untitled)#1
+# Loading work.gencc(untitled)#1
+# Loading work.ir(untitled)#1
+# Loading work.imm5(untitled)#1
+# Loading work.jsradd(untitled)#1
+# Loading work.lwrbyte(untitled)#1
+# Loading work.nzp(untitled)#1
+# Loading work.nzpsplit(untitled)#1
+# Loading work.plus2(untitled)#1
+# Loading work.reg16(untitled)#1
+# Loading work.regfile(untitled)#1
+# Loading work.storemux(untitled)#1
+# Loading work.wordmux2(untitled)#1
+# Loading work.zext8(untitled)#1
+# Loading work.destmux(untitled)#1
+# Loading work.memory(struct)#1
+# ** Error: ** Error: (vsim-7) Failed to open  file "/home/strasbe1/ECE411/mp/compile/@_opt/vopti3wj5e" in r mode.
+# No such file or directory. (errno = ENOENT)
+# 
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_Cont
+# ** Error: (vsim-3171) Could not find machine code for '/home/strasbe1/ECE411/mp/compile.cache_controller(fsm)'.
+# No such file or directory. (errno = ENOENT)
+# Load interrupted
+# Error loading design
+do wave.do
+# hds_restart 
+vsim -L ece411 -l transcript.txt -i -t ns -multisource_delay latest +typdelays ece411.mp2_CPU(struct)
+# vsim -L ece411 -l transcript.txt -i -multisource_delay latest -t ns +typdelays -foreign {hdsInit /software/mentor/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll} -pli {"/software/mentor/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll"} ece411.mp2_CPU(struct) 
+# Loading /software/mentor/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.lc3b_types(body)
+# Loading work.mp2_cpu(struct)#1
+# Loading work.clkgen(untitled)#1
+# Loading work.control(fsm)#1
+# Loading work.datapath(struct)#1
+# Loading work.adj11(untitled)#1
+# Loading work.adj6(untitled)#1
+# Loading work.adj6noshft(untitled)#1
+# Loading work.adj9(untitled)#1
+# Loading work.alu(untitled)#1
+# Loading work.addrlowestbit(untitled)#1
+# Loading work.bradd(untitled)#1
+# Loading work.gencc(untitled)#1
+# Loading work.ir(untitled)#1
+# Loading work.imm5(untitled)#1
+# Loading work.jsradd(untitled)#1
+# Loading work.lwrbyte(untitled)#1
+# Loading work.nzp(untitled)#1
+# Loading work.nzpsplit(untitled)#1
+# Loading work.plus2(untitled)#1
+# Loading work.reg16(untitled)#1
+# Loading work.regfile(untitled)#1
+# Loading work.storemux(untitled)#1
+# Loading work.wordmux2(untitled)#1
+# Loading work.zext8(untitled)#1
+# Loading work.destmux(untitled)#1
+# Loading work.memory(struct)#1
+# ** Error: ** Error: (vsim-7) Failed to open  file "/home/strasbe1/ECE411/mp/compile/@_opt/vopti3wj5e" in r mode.
+# No such file or directory. (errno = ENOENT)
+# 
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_Cont
+# ** Error: (vsim-3171) Could not find machine code for '/home/strasbe1/ECE411/mp/compile.cache_controller(fsm)'.
+# No such file or directory. (errno = ENOENT)
+# Load interrupted
+# Error loading design
+# hds_restart 
+vsim -L ece411 -l transcript.txt -i -t ns -multisource_delay latest +typdelays ece411.mp2_CPU(struct)
+# vsim -L ece411 -l transcript.txt -i -multisource_delay latest -t ns +typdelays -foreign {hdsInit /software/mentor/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll} -pli {"/software/mentor/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll"} ece411.mp2_CPU(struct) 
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "Control(fsm)".
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "Cache_Controller(fsm)".
+# Loading /software/mentor/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.lc3b_types(body)
+# Loading work.mp2_cpu(struct)#1
+# Loading work.clkgen(untitled)#1
+# Loading work.control(fsm)#1
+# Loading work.datapath(struct)#1
+# Loading work.adj11(untitled)#1
+# Loading work.adj6(untitled)#1
+# Loading work.adj6noshft(untitled)#1
+# Loading work.adj9(untitled)#1
+# Loading work.alu(untitled)#1
+# Loading work.addrlowestbit(untitled)#1
+# Loading work.bradd(untitled)#1
+# Loading work.gencc(untitled)#1
+# Loading work.ir(untitled)#1
+# Loading work.imm5(untitled)#1
+# Loading work.jsradd(untitled)#1
+# Loading work.lwrbyte(untitled)#1
+# Loading work.nzp(untitled)#1
+# Loading work.nzpsplit(untitled)#1
+# Loading work.plus2(untitled)#1
+# Loading work.reg16(untitled)#1
+# Loading work.regfile(untitled)#1
+# Loading work.storemux(untitled)#1
+# Loading work.wordmux2(untitled)#1
+# Loading work.zext8(untitled)#1
+# Loading work.destmux(untitled)#1
+# Loading work.memory(struct)#1
+# Loading work.cache_controller(fsm)#1
+# Loading work.cache_datapath(struct)#1
+# Loading work.and2(untitled)#1
+# Loading work.and3(untitled)#1
+# Loading work.addressparts(untitled)#1
+# Loading work.cacheway(struct)#1
+# Loading work.dataarray(untitled)#1
+# Loading work.dirtyarray(untitled)#1
+# Loading work.tagarray(untitled)#1
+# Loading work.validarray(untitled)#1
+# Loading work.dataoutbreakup(untitled)#1
+# Loading work.lruarray(untitled)#1
+# Loading work.mux8(untitled)#1
+# Loading work.nand3(untitled)#1
+# Loading work.not1(untitled)#1
+# Loading work.or2(untitled)#1
+# Loading work.owordmux(untitled)#1
+# Loading work.offsetword(untitled)#1
+# Loading work.pmaddroffset(untitled)#1
+# Loading work.tagcomparator(untitled)#1
+# Loading work.physical_memory(untitled)#1
+do wave.do
+restart -f
+# Loading /software/mentor/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll
+do mp22-cp2.do
+# --- Executing initialization force file for ../testcode/mp22-cp2.asm --- 
+# Resetting processor for 5 ns. 
+# Initializing the processor. 
+# Done initializing processor, loading ../testcode/mp22-cp2.asm program code. 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/PDRAM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/aLRUARRAY
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/aLRUARRAY
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aValidArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aValidArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aTagArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aTagArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aDirtyArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aDirtyArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aDAtaArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aDAtaArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aValidArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aValidArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aTagArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aTagArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aDirtyArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aDirtyArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aDAtaArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aDAtaArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aALU
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aDAtaArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aDirtyArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aTagArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aValidArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aDAtaArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aDirtyArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aTagArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aValidArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/DRAM/Cache_DP/aLRUARRAY
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/theDatapath/aALU
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/DRAM/PDRAM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aDAtaArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aDirtyArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aTagArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aValidArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aDAtaArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aDirtyArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aTagArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aValidArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp2_cpu/DRAM/Cache_DP/aLRUARRAY
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aDAtaArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aDirtyArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aTagArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aValidArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aDAtaArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aDirtyArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aTagArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aValidArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aALU
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aDAtaArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aDirtyArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aTagArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aValidArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aDAtaArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aDirtyArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aTagArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aValidArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/aLRUARRAY
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/PDRAM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 7 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aALU
+# Done loading ../testcode/mp22-cp2.asm program code. 
+run 10000
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 22 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 25 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 50 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 75 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 100 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 125 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 147 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 150 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 175 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 197 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 200 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 225 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 250 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 275 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 300 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 325 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 350 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 375 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 400 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 425 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 450 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 475 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 500 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 525 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 550 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 575 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 600 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 625 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 650 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 675 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 697 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 700 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 725 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 750 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 775 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 780 ns  Iteration: 1  Instance: /mp2_cpu/theDatapath/aRegFile
+add wave -position end  sim:/mp2_cpu/DRAM/Cache_DP/CacheWay1/aDAtaArray/Data
+add wave -position end  sim:/mp2_cpu/DRAM/Cache_DP/CacheWay2/aDAtaArray/Data
+add wave -position 8  sim:/mp2_cpu/ControlUnit/MRESP_H
+restart -f
+# Loading /software/mentor/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll
+do mp22-cp2.do
+# --- Executing initialization force file for ../testcode/mp22-cp2.asm --- 
+# Resetting processor for 5 ns. 
+# Initializing the processor. 
+# Done initializing processor, loading ../testcode/mp22-cp2.asm program code. 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/PDRAM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/aLRUARRAY
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/aLRUARRAY
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aValidArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aValidArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aTagArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aTagArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aDirtyArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aDirtyArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aDAtaArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aDAtaArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aValidArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aValidArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aTagArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aTagArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aDirtyArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aDirtyArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aDAtaArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aDAtaArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aALU
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aDAtaArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aDirtyArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aTagArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aValidArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aDAtaArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aDirtyArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aTagArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aValidArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/DRAM/Cache_DP/aLRUARRAY
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/theDatapath/aALU
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/DRAM/PDRAM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aDAtaArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aDirtyArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aTagArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aValidArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aDAtaArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aDirtyArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aTagArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aValidArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp2_cpu/DRAM/Cache_DP/aLRUARRAY
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aDAtaArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aDirtyArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aTagArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aValidArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aDAtaArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aDirtyArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aTagArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aValidArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aALU
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aDAtaArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aDirtyArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aTagArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aValidArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aDAtaArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aDirtyArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aTagArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aValidArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/aLRUARRAY
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/PDRAM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 7 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aALU
+# Done loading ../testcode/mp22-cp2.asm program code. 
+run 10000
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 22 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 25 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 50 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 75 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 100 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 125 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 147 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 150 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 175 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 197 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 200 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 225 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 250 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 275 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 300 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 325 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 350 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 375 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 400 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 425 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 450 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 475 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 500 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 525 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 550 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 575 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 600 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 625 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 650 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 675 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 697 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 700 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 725 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 750 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 775 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 780 ns  Iteration: 1  Instance: /mp2_cpu/theDatapath/aRegFile
+add wave -position 9  sim:/mp2_cpu/ControlUnit/current_state
+restart -f
+# Loading /software/mentor/HDS_2012.1/resources/downstream/modelsim/ModelSim_32Bit.dll
+do mp22-cp2.do
+# --- Executing initialization force file for ../testcode/mp22-cp2.asm --- 
+# Resetting processor for 5 ns. 
+# Initializing the processor. 
+# Done initializing processor, loading ../testcode/mp22-cp2.asm program code. 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/PDRAM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/aLRUARRAY
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/aLRUARRAY
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aValidArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aValidArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aTagArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aTagArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aDirtyArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aDirtyArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aDAtaArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aDAtaArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aValidArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aValidArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aTagArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aTagArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aDirtyArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aDirtyArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aDAtaArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aDAtaArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aALU
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aDAtaArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aDirtyArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aTagArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aValidArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aDAtaArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aDirtyArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aTagArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aValidArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/DRAM/Cache_DP/aLRUARRAY
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/theDatapath/aALU
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mp2_cpu/DRAM/PDRAM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aDAtaArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aDirtyArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aTagArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aValidArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aDAtaArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aDirtyArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aTagArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aValidArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp2_cpu/DRAM/Cache_DP/aLRUARRAY
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aDAtaArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aDirtyArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aTagArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aValidArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aDAtaArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aDirtyArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aTagArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 3  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aValidArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 4 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aALU
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aDAtaArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aDirtyArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aTagArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay1/aValidArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aDAtaArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aDirtyArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aTagArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/CacheWay2/aValidArray
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/Cache_DP/aLRUARRAY
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5 ns  Iteration: 0  Instance: /mp2_cpu/DRAM/PDRAM
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 7 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aALU
+# Done loading ../testcode/mp22-cp2.asm program code. 
+run 10000
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 22 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 25 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 50 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 75 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 100 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 125 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 147 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 150 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 175 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 197 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 200 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 225 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 250 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 275 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 300 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 325 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 350 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 375 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 400 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 425 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 450 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 475 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 500 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 525 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 550 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 575 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 600 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 625 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 650 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 675 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 697 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 700 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 725 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 750 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 775 ns  Iteration: 0  Instance: /mp2_cpu/theDatapath/aRegFile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 780 ns  Iteration: 1  Instance: /mp2_cpu/theDatapath/aRegFile
+# The connection to HDS has been closed 
