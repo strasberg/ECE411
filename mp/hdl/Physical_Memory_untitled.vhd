@@ -21,7 +21,7 @@ ENTITY Physical_Memory IS
       PMDATAOUT : IN     LC3B_OWORD;
       PMREAD_L  : IN     STD_LOGIC;
       PMWRITE_L : IN     STD_LOGIC;
-      Reset_L   : IN     std_logic;
+      RESET_L   : IN     std_logic;
       PMDATAIN  : OUT    LC3B_OWORD;
       PMRESP_H  : OUT    STD_LOGIC
    );

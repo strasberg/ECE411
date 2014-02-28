@@ -22,7 +22,7 @@ ENTITY Memory IS
       MREAD_L   : IN     std_logic;
       MWRITEH_L : IN     std_logic;
       MWRITEL_L : IN     std_logic;
-      Reset_L   : IN     std_logic;
+      RESET_L   : IN     std_logic;
       DATAIN    : OUT    LC3b_word;
       MRESP_H   : OUT    std_logic
    );

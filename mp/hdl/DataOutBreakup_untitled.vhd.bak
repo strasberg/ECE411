@@ -16,7 +16,6 @@ USE ece411.LC3b_types.all;
 
 ENTITY DataOutBreakup IS
    PORT( 
-      PMDATAOUT : IN     LC3B_OWORD;
       word0     : OUT    LC3B_WORD;
       word1     : OUT    LC3B_WORD;
       word2     : OUT    LC3B_WORD;
@@ -24,7 +23,8 @@ ENTITY DataOutBreakup IS
       word4     : OUT    LC3B_WORD;
       word5     : OUT    LC3B_WORD;
       word6     : OUT    LC3B_WORD;
-      word7     : OUT    LC3B_WORD
+      word7     : OUT    LC3B_WORD;
+      PMDATAOUT : IN     LC3B_OWORD
    );
 
 -- Declarations
@@ -34,5 +34,13 @@ END DataOutBreakup ;
 --
 ARCHITECTURE untitled OF DataOutBreakup IS
 BEGIN
+    word0 <= CACHEOUT(15 downto 0);
+    word1 <= CACHEOUT(31 downto 16);
+    word2 <= CACHEOUT(47 downto 32);
+    word3 <= CACHEOUT(63 downto 48);
+    word4 <= CACHEOUT(79 downto 64);
+    word5 <= CACHEOUT(95 downto 80);
+    word6 <= CACHEOUT(111 downto 96);
+    word7 <= CACHEOUT(127 downto 112);
 END ARCHITECTURE untitled;
 
