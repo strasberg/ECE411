@@ -1,0 +1,77 @@
+DESIGN @way@select
+VIEW interface
+NO_GRAPHIC 0
+DESIGN @way@select
+VIEW interface
+GRAPHIC 50,0 8 0 
+DESIGN @way@select
+VIEW interface
+GRAPHIC 175,0 17 0 
+DESIGN @way@select
+VIEW interface
+GRAPHIC 180,0 18 0 
+DESIGN @way@select
+VIEW interface
+GRAPHIC 190,0 19 0 
+DESIGN @way@select
+VIEW interface
+GRAPHIC 185,0 20 0 
+DESIGN @way@select
+VIEW interface
+GRAPHIC 1,0 23 0 
+DESIGN @way@select
+VIEW interface
+GRAPHIC 1,0 24 0 
+DESIGN @way@select
+VIEW struct.bd
+NO_GRAPHIC 27
+DESIGN @way@select
+VIEW struct.bd
+GRAPHIC 89,0 36 0 
+DESIGN @way@select
+VIEW struct.bd
+NO_GRAPHIC 42
+DESIGN @way@select
+VIEW struct.bd
+GRAPHIC 0,0 44 2 
+DESIGN @way@select
+VIEW struct.bd
+NO_GRAPHIC 49
+DESIGN @way@select
+VIEW struct.bd
+NO_GRAPHIC 50
+LIBRARY ece411
+DESIGN @s@t@d@logic@mux
+VIEW untitled
+GRAPHIC 202,0 52 0 
+DESIGN @way@select
+VIEW struct.bd
+GRAPHIC 15,0 54 0 
+DESIGN @way@select
+VIEW struct.bd
+GRAPHIC 194,0 55 0 
+DESIGN @way@select
+VIEW struct.bd
+GRAPHIC 43,0 56 0 
+DESIGN @way@select
+VIEW struct.bd
+GRAPHIC 29,0 57 0 
+LIBRARY ece411
+DESIGN @way@select
+VIEW struct.bd
+NO_GRAPHIC 60
+DESIGN @way@select
+VIEW struct.bd
+GRAPHIC 202,0 63 0 
+DESIGN @way@select
+VIEW struct.bd
+NO_GRAPHIC 66
+DESIGN @way@select
+VIEW struct.bd
+NO_GRAPHIC 68
+DESIGN @way@select
+VIEW struct.bd
+GRAPHIC 202,0 70 0 
+DESIGN @way@select
+VIEW struct.bd
+NO_GRAPHIC 78

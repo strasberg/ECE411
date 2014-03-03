@@ -1,0 +1,46 @@
+--
+-- VHDL Architecture ece411.STDLogicMux.untitled
+--
+-- Created:
+--          by - strasbe1.ews (gelib-057-28.ews.illinois.edu)
+--          at - 22:02:59 03/02/14
+--
+-- using Mentor Graphics HDL Designer(TM) 2012.1 (Build 6)
+--
+LIBRARY ieee; 
+USE ieee.std_logic_1164.all; 
+USE ieee.NUMERIC_STD.all; 
+ 
+LIBRARY ece411; 
+USE ece411.LC3b_types.all; 
+
+ENTITY STDLogicMux IS
+   PORT( 
+      DirtyState : IN     std_logic;
+      LRUNotOut  : IN     std_logic;
+      Way1Hit    : IN     std_logic;
+      OWordSel   : OUT    std_logic
+   );
+
+-- Declarations
+
+END STDLogicMux ;
+
+--
+ARCHITECTURE untitled OF STDLogicMux IS
+BEGIN
+  PROCESS (DirtyState, LRUNotOut, Way1Hit)
+	VARIABLE STATE : std_logic;
+	BEGIN
+		CASE DirtyState IS
+			WHEN '0' =>
+				STATE := Way1Hit;
+			WHEN '1' =>
+				STATE := LRUNotOut;
+			WHEN OTHERS =>
+				STATE := (OTHERS => 'X');
+		END CASE;
+	OwordSel <= STATE AFTER DELAY_MUX2;
+	END PROCESS;
+END ARCHITECTURE untitled;
+
