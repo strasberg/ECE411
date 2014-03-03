@@ -9,9 +9,9 @@ ENTITY TagArray IS
    PORT( 
       TagIn     : IN     LC3B_C_TAG;
       TagOut    : OUT    LC3b_c_tag;
-      DataWrite : IN     std_logic;
       Reset_L   : IN     std_logic;
-      Index     : IN     LC3B_C_INDEX
+      Index     : IN     LC3B_C_INDEX;
+      DataWrite : IN     std_logic
    );
 
 -- Declarations

@@ -2,8 +2,8 @@
 -- VHDL Architecture ece411.ByteMux2.untitled
 --
 -- Created:
---          by - strasbe1.ews (gelib-057-21.ews.illinois.edu)
---          at - 05:20:42 02/28/14
+--          by - strasbe1.ews (dcl-l520-32.ews.illinois.edu)
+--          at - 18:20:03 03/02/14
 --
 -- using Mentor Graphics HDL Designer(TM) 2012.1 (Build 6)
 --
@@ -13,17 +13,14 @@ USE ieee.NUMERIC_STD.all;
  
 LIBRARY ece411; 
 USE ece411.LC3b_types.all; 
-
 ENTITY ByteMux2 IS
-   PORT( 
-      B : IN     LC3b_byte;
-      a : IN     LC3b_byte;
-      F : OUT    LC3b_byte
+   PORT (
+      a   : IN     LC3b_byte;
+      B   : IN     LC3b_byte;
+      F   : OUT    LC3b_byte;
+      sel : IN     STD_LOGIC
    );
-
--- Declarations
-
-END ByteMux2 ;
+END ByteMux2;
 
 --
 ARCHITECTURE untitled OF ByteMux2 IS

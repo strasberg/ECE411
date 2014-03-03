@@ -45,23 +45,22 @@ END PMDATAOUTByteBreakup ;
 --
 ARCHITECTURE untitled OF PMDATAOUTByteBreakup IS
 BEGIN
-      byte0  <= CACHEOUT(7 downto 0);
-      byte1  <= CACHEOUT(15 downto 8);
-      byte2  <= CACHEOUT(23 downto 16);
-      byte3  <= CACHEOUT(31 downto 24);
-      byte4  <= CACHEOUT(39 downto 32);
-      byte5  <= CACHEOUT(47 downto 40);
-      byte6  <= CACHEOUT(55 downto 48);
-      byte7  <= CACHEOUT(63 downto 56);
-      byte8  <= CACHEOUT(71 downto 64);
-      byte9  <= CACHEOUT(79 downto 72);
-      byte10 <= CACHEOUT(87 downto 80);
-      byte11 <= CACHEOUT(95 downto 88);
-      byte12 <= CACHEOUT(103 downto 96);
-      byte13 <= CACHEOUT(111 downto 104);
-      byte14 <= CACHEOUT(119 downto 112);
-      byte15 <= CACHEOUT(127 downto 120);
+      byte0  <= PMDATAOUT(7 downto 0);
+      byte1  <= PMDATAOUT(15 downto 8);
+      byte2  <= PMDATAOUT(23 downto 16);
+      byte3  <= PMDATAOUT(31 downto 24);
+      byte4  <= PMDATAOUT(39 downto 32);
+      byte5  <= PMDATAOUT(47 downto 40);
+      byte6  <= PMDATAOUT(55 downto 48);
+      byte7  <= PMDATAOUT(63 downto 56);
+      byte8  <= PMDATAOUT(71 downto 64);
+      byte9  <= PMDATAOUT(79 downto 72);
+      byte10 <= PMDATAOUT(87 downto 80);
+      byte11 <= PMDATAOUT(95 downto 88);
+      byte12 <= PMDATAOUT(103 downto 96);
+      byte13 <= PMDATAOUT(111 downto 104);
+      byte14 <= PMDATAOUT(119 downto 112);
+      byte15 <= PMDATAOUT(127 downto 120);
       dataByte0 <= DATAOUT(7 downto 0);
       dataBYte1 <= DATAOUT(15 downto 8);
 END ARCHITECTURE untitled;
-

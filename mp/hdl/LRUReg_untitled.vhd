@@ -16,12 +16,12 @@ USE ece411.LC3b_types.all;
 
 ENTITY LRUReg IS
    PORT( 
-      Way1Hit : IN     std_logic;
-      MRESP_H : IN     std_logic;
-      MemAction: IN    std_logic;
-      LRUIN   : OUT    std_logic;
-      LRUHold : in     std_logic;
-      RESET_L : in     std_logic
+      Way1Hit   : IN     std_logic;
+      MRESP_H   : IN     std_logic;
+      memAction : IN     std_logic;
+      LRUIN     : OUT    std_logic;
+      LRUHold   : IN     std_logic;
+      RESET_L   : IN     std_logic
    );
 
 -- Declarations

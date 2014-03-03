@@ -16,10 +16,11 @@ USE ece411.LC3b_types.all;
 
 ENTITY DirtyArray IS
    PORT( 
-      DirtyOut  : OUT    std_logic;
-      DataWrite : IN     std_logic;
-      Reset_L   : IN     std_logic;
-      Index     : IN     LC3B_C_INDEX
+      DirtyOut   : OUT    std_logic;
+      Reset_L    : IN     std_logic;
+      Index      : IN     LC3B_C_INDEX;
+      DirtyWrite : IN     std_logic;
+      DirtyIn    : IN     std_logic
    );
 
 -- Declarations
@@ -41,24 +42,24 @@ TYPE DirtyArray IS array (7 downto 0) of std_logic;
 		END PROCESS ReadFromDirtyArray;
 	
 		--------------------------------------------------------------
-		WriteToDirtyArray : PROCESS (RESET_L, Index, DataWrite)
+		WriteToDirtyArray : PROCESS (RESET_L, Index, DirtyWrite)
 		-------------------------------------------------------	------	
 			VARIABLE DirtyIndex : integer;
 			BEGIN
 				DirtyIndex := to_integer(unsigned(Index));
 			IF RESET_L = '0' THEN
-				Dirty(0) <= 'X';
-				Dirty(1) <= 'X';
-				Dirty(2) <= 'X';
-				Dirty(3) <= 'X';
-				Dirty(4) <= 'X';
-				Dirty(5) <= 'X';
-				Dirty(6) <= 'X';
-				Dirty(7) <= 'X';
+				Dirty(0) <= '0';
+				Dirty(1) <= '0';
+				Dirty(2) <= '0';
+				Dirty(3) <= '0';
+				Dirty(4) <= '0';
+				Dirty(5) <= '0';
+				Dirty(6) <= '0';
+				Dirty(7) <= '0';
 			END IF;
 
-			IF (DataWrite = '1') THEN
-				Dirty(DirtyIndex) <= '0'; --for now never dirty, need to change to be 1 if any str instr happens
+			IF (DirtyWrite = '1') THEN
+				Dirty(DirtyIndex) <= DirtyIn;
 			END IF;
 		
 		END PROCESS WriteToDirtyArray;

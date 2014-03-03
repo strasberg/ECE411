@@ -9,7 +9,7 @@ ldb r7, r0, HighByte ;2
 ;MAR <= 8 or 9
 ;MDR <= (M[8] = 4x600D)
 ;R7 <= 4x00 & 4x60
-stb r6, r0, LowSByte ;4
+stR r6, r0, LowSByte ;4
 ;MAR <= 10
 ;MDR <= 4xXX & (R6(7:0) = 4x0D)
 ;*only* MWRITEL_L is active (=0).

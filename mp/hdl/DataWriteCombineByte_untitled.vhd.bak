@@ -42,21 +42,20 @@ END DataWriteCombineByte ;
 --
 ARCHITECTURE untitled OF DataWriteCombineByte IS
 BEGIN
-DATAWriteOUt(7 downto 0)     <= byte0;
-DATAWriteOUt(15 downto 8)    <= byte1;
-DATAWriteOUt(23 downto 16)   <= byte2;
-DATAWriteOUt(31 downto 24)   <= byte3;
-DATAWriteOUt(39 downto 32)   <= byte4;
-DATAWriteOUt(47 downto 40)   <= byte5;
-DATAWriteOUt(55 downto 48)   <= byte6;
-DATAWriteOUt(63 downto 56)   <= byte7;
-DATAWriteOUt(71 downto 64)   <= byte8;
-DATAWriteOUt(79 downto 72)   <= byte9;
-DATAWriteOUt(87 downto 80)   <= byte10;
-DATAWriteOUt(95 downto 88)   <= byte11;
-DATAWriteOUt(103 downto 96)  <= byte12;
-DATAWriteOUt(111 downto 104) <= byte13;
-DATAWriteOUt(119 downto 112) <= byte14;
-DATAWriteOUt(127 downto 120) <= byte15;
+DATAWriteOUt(7 downto 0)     <= byte0out;
+DATAWriteOUt(15 downto 8)    <= byte1out;
+DATAWriteOUt(23 downto 16)   <= byte2out;
+DATAWriteOUt(31 downto 24)   <= byte3out;
+DATAWriteOUt(39 downto 32)   <= byte4out;
+DATAWriteOUt(47 downto 40)   <= byte5out;
+DATAWriteOUt(55 downto 48)   <= byte6out;
+DATAWriteOUt(63 downto 56)   <= byte7out;
+DATAWriteOUt(71 downto 64)   <= byte8out;
+DATAWriteOUt(79 downto 72)   <= byte9out;
+DATAWriteOUt(87 downto 80)   <= byte10out;
+DATAWriteOUt(95 downto 88)   <= byte11out;
+DATAWriteOUt(103 downto 96)  <= byte12out;
+DATAWriteOUt(111 downto 104) <= byte13out;
+DATAWriteOUt(119 downto 112) <= byte14out;
+DATAWriteOUt(127 downto 120) <= byte15out;
 END ARCHITECTURE untitled;
-

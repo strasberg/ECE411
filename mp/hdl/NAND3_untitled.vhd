@@ -19,7 +19,7 @@ ENTITY NAND3 IS
       MREAD_L   : IN     std_logic;
       MWRITEH_L : IN     std_logic;
       MWRITEL_L : IN     std_logic;
-      MemAction : OUT    std_logic
+      memAction : OUT    std_logic
    );
 
 -- Declarations

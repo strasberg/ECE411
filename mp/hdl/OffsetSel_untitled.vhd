@@ -50,66 +50,99 @@ BEGIN
   begin
     if((offset(3 downto 1) = "000" ) AND (MWriteL_L = '0')) THEN
       pre_sel0 <= '1';
+    else
+      pre_sel0 <= '0';
     end if;
     
     if((offset(3 downto 1) = "000" ) AND (MWriteH_L = '0')) THEN
       pre_sel1 <= '1';
+    else
+      pre_sel1 <= '0';
     end if;
   
-  if((offset(3 downto 1) = "001" ) AND (MWriteL_L = '0')) THEN
+    if((offset(3 downto 1) = "001" ) AND (MWriteL_L = '0')) THEN
       pre_sel2 <= '1';
+    else
+      pre_sel2 <= '0';    
     end if;
     
-    if((offset(3 downto 1) = "001" ) AND (MWriteH_L = '0')) THEN
+    if((offset = "0010" or offset = "0011") AND (MWriteH_L = '0')) THEN
       pre_sel3 <= '1';
+    else
+      pre_sel3 <= '0';    
     end if;
+    
   
-  if((offset(3 downto 1) = "010" ) AND (MWriteL_L = '0')) THEN
+    if((offset(3 downto 1) = "010" ) AND (MWriteL_L = '0')) THEN
       pre_sel4 <= '1';
+    else
+      pre_sel4 <= '0';
     end if;
     
     if((offset(3 downto 1) = "010" ) AND (MWriteH_L = '0')) THEN
       pre_sel5 <= '1';
+    else
+      pre_sel5 <= '0';
     end if;
   
-  if((offset(3 downto 1) = "011" ) AND (MWriteL_L = '0')) THEN
+    if((offset(3 downto 1) = "011" ) AND (MWriteL_L = '0')) THEN
       pre_sel6 <= '1';
+    else
+      pre_sel6 <= '0';
     end if;
     
     if((offset(3 downto 1) = "011" ) AND (MWriteH_L = '0')) THEN
       pre_sel7 <= '1';
+    else
+      pre_sel7 <= '0';
     end if;
   
-  if((offset(3 downto 1) = "100" ) AND (MWriteL_L = '0')) THEN
+    if((offset(3 downto 1) = "100" ) AND (MWriteL_L = '0')) THEN
       pre_sel8 <= '1';
+    else
+      pre_sel8 <= '0';
     end if;
     
     if((offset(3 downto 1) = "100" ) AND (MWriteH_L = '0')) THEN
       pre_sel9 <= '1';
+    else
+      pre_sel9 <= '0';
     end if;
   
-  if((offset(3 downto 1) = "101" ) AND (MWriteL_L = '0')) THEN
+    if((offset(3 downto 1) = "101" ) AND (MWriteL_L = '0')) THEN
       pre_sel10 <= '1';
+    else
+      pre_sel10 <= '0';
     end if;
     
     if((offset(3 downto 1) = "101" ) AND (MWriteH_L = '0')) THEN
       pre_sel11 <= '1';
+    else
+      pre_sel11 <= '0';
     end if;
   
-  if((offset(3 downto 1) = "110" ) AND (MWriteL_L = '0')) THEN
+    if((offset(3 downto 1) = "110" ) AND (MWriteL_L = '0')) THEN
       pre_sel12 <= '1';
+    else
+      pre_sel12 <= '0';
     end if;
     
     if((offset(3 downto 1) = "110" ) AND (MWriteH_L = '0')) THEN
       pre_sel13 <= '1';
+    else
+      pre_sel13 <= '0';
     end if;
   
-  if((offset(3 downto 1) = "111" ) AND (MWriteL_L = '0')) THEN
+    if((offset(3 downto 1) = "111" ) AND (MWriteL_L = '0')) THEN
       pre_sel14 <= '1';
+    else
+      pre_sel4 <= '0';
     end if;
     
     if((offset(3 downto 1) = "111" ) AND (MWriteH_L = '0')) THEN
       pre_sel15 <= '1';
+    else
+      pre_sel5 <= '0';
     end if;
   end process;
 
@@ -129,6 +162,5 @@ BEGIN
   sel12 <= pre_sel12;
   sel13 <= pre_sel13;
   sel14 <= pre_sel14;
-  sel15  <= pre_sel15;
+  sel15 <= pre_sel15;
 END ARCHITECTURE untitled;
-

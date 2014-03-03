@@ -17,12 +17,6 @@ USE ece411.LC3b_types.all;
 ENTITY DataWriteCombineByte IS
    PORT( 
       byte0out  : IN     LC3b_byte;
-      byte10out : IN     LC3b_byte;
-      byte11out : IN     LC3b_byte;
-      byte12out : IN     LC3b_byte;
-      byte13out : IN     LC3b_byte;
-      byte14out : IN     LC3b_byte;
-      byte15out : IN     LC3b_byte;
       byte1out  : IN     LC3b_byte;
       byte2out  : IN     LC3b_byte;
       byte3out  : IN     LC3b_byte;
@@ -32,6 +26,12 @@ ENTITY DataWriteCombineByte IS
       byte7out  : IN     LC3b_byte;
       byte8out  : IN     LC3b_byte;
       byte9out  : IN     LC3b_byte;
+      byte10out : IN     LC3b_byte;
+      byte11out : IN     LC3b_byte;
+      byte12out : IN     LC3b_byte;
+      byte13out : IN     LC3b_byte;
+      byte14out : IN     LC3b_byte;
+      byte15out : IN     LC3b_byte;
       DataWriteOut : OUT LC3B_Oword
    );
 
@@ -59,4 +59,3 @@ DATAWriteOUt(111 downto 104) <= byte13out;
 DATAWriteOUt(119 downto 112) <= byte14out;
 DATAWriteOUt(127 downto 120) <= byte15out;
 END ARCHITECTURE untitled;
-

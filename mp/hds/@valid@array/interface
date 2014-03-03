@@ -26,7 +26,7 @@ model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
 ordering 1
-suid 27,0
+suid 31,0
 usingSuid 1
 emptyRow *1 (LEmptyRow
 )
@@ -71,11 +71,11 @@ lang 11
 decl (Decl
 n "DataWrite"
 t "std_logic"
-o 2
-suid 24,0
+o 4
+suid 28,0
 )
 )
-uid 427,0
+uid 478,0
 )
 *15 (LogPort
 port (LogicalPort
@@ -83,11 +83,11 @@ lang 11
 decl (Decl
 n "Index"
 t "LC3B_C_INDEX"
-o 4
-suid 25,0
+o 3
+suid 29,0
 )
 )
-uid 429,0
+uid 480,0
 )
 *16 (LogPort
 port (LogicalPort
@@ -95,11 +95,11 @@ lang 11
 decl (Decl
 n "Reset_L"
 t "std_logic"
-o 3
-suid 26,0
+o 2
+suid 30,0
 )
 )
-uid 431,0
+uid 482,0
 )
 *17 (LogPort
 port (LogicalPort
@@ -109,10 +109,10 @@ decl (Decl
 n "ValidOut"
 t "std_logic"
 o 1
-suid 27,0
+suid 31,0
 )
 )
-uid 433,0
+uid 484,0
 )
 ]
 )
@@ -168,25 +168,25 @@ uid 78,0
 litem &14
 pos 0
 dimension 20
-uid 428,0
+uid 479,0
 )
 *24 (MRCItem
 litem &15
 pos 1
 dimension 20
-uid 430,0
+uid 481,0
 )
 *25 (MRCItem
 litem &16
 pos 2
 dimension 20
-uid 432,0
+uid 483,0
 )
 *26 (MRCItem
 litem &17
 pos 3
 dimension 20
-uid 434,0
+uid 485,0
 )
 ]
 )
@@ -457,19 +457,19 @@ value "/home/strasbe1/ECE411/mp/hds/ValidArray"
 )
 (vvPair
 variable "date"
-value "02/17/14"
+value "02/28/14"
 )
 (vvPair
 variable "day"
-value "Mon"
+value "Fri"
 )
 (vvPair
 variable "day_long"
-value "Monday"
+value "Friday"
 )
 (vvPair
 variable "dd"
-value "17"
+value "28"
 )
 (vvPair
 variable "entity_name"
@@ -497,7 +497,7 @@ value "ews"
 )
 (vvPair
 variable "host"
-value "gelib-057-05.ews.illinois.edu"
+value "gelib-057-21.ews.illinois.edu"
 )
 (vvPair
 variable "language"
@@ -589,7 +589,7 @@ value "interface"
 )
 (vvPair
 variable "time"
-value "19:19:59"
+value "08:30:24"
 )
 (vvPair
 variable "unit"
@@ -624,53 +624,56 @@ optionalChildren [
 uid 8,0
 optionalChildren [
 *60 (CptPort
-uid 407,0
+uid 458,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 408,0
+uid 459,0
 ro 90
 va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "14250,6625,15000,7375"
+xt "14250,9625,15000,10375"
 )
 tg (CPTG
-uid 409,0
+uid 460,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 410,0
+uid 461,0
 va (VaSet
 font "courier,8,0"
 )
-xt "16000,6550,20500,7450"
+xt "16000,9550,20500,10450"
 st "DataWrite"
-blo "16000,7250"
+blo "16000,10250"
 tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 411,0
+uid 462,0
 va (VaSet
 font "courier,8,0"
 )
+xt "44000,4500,59000,5400"
+st "DataWrite : IN     std_logic 
+"
 )
 thePort (LogicalPort
 lang 11
 decl (Decl
 n "DataWrite"
 t "std_logic"
-o 2
-suid 24,0
+o 4
+suid 28,0
 )
 )
 )
 *61 (CptPort
-uid 412,0
+uid 463,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 413,0
+uid 464,0
 ro 90
 va (VaSet
 vasetType 1
@@ -679,11 +682,11 @@ fg "0,65535,0"
 xt "14250,7625,15000,8375"
 )
 tg (CPTG
-uid 414,0
+uid 465,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 415,0
+uid 466,0
 va (VaSet
 font "courier,8,0"
 )
@@ -694,26 +697,29 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 416,0
+uid 467,0
 va (VaSet
 font "courier,8,0"
 )
+xt "44000,3600,61500,4500"
+st "Index     : IN     LC3B_C_INDEX  ;
+"
 )
 thePort (LogicalPort
 lang 11
 decl (Decl
 n "Index"
 t "LC3B_C_INDEX"
-o 4
-suid 25,0
+o 3
+suid 29,0
 )
 )
 )
 *62 (CptPort
-uid 417,0
+uid 468,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 418,0
+uid 469,0
 ro 90
 va (VaSet
 vasetType 1
@@ -722,11 +728,11 @@ fg "0,65535,0"
 xt "14250,12625,15000,13375"
 )
 tg (CPTG
-uid 419,0
+uid 470,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 420,0
+uid 471,0
 va (VaSet
 font "courier,8,0"
 )
@@ -737,26 +743,29 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 421,0
+uid 472,0
 va (VaSet
 font "courier,8,0"
 )
+xt "44000,2700,60000,3600"
+st "Reset_L   : IN     std_logic  ;
+"
 )
 thePort (LogicalPort
 lang 11
 decl (Decl
 n "Reset_L"
 t "std_logic"
-o 3
-suid 26,0
+o 2
+suid 30,0
 )
 )
 )
 *63 (CptPort
-uid 422,0
+uid 473,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 423,0
+uid 474,0
 ro 90
 va (VaSet
 vasetType 1
@@ -765,11 +774,11 @@ fg "0,65535,0"
 xt "23000,6625,23750,7375"
 )
 tg (CPTG
-uid 424,0
+uid 475,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 425,0
+uid 476,0
 va (VaSet
 font "courier,8,0"
 )
@@ -781,10 +790,13 @@ tm "CptPortNameMgr"
 )
 )
 dt (MLText
-uid 426,0
+uid 477,0
 va (VaSet
 font "courier,8,0"
 )
+xt "44000,1800,60000,2700"
+st "ValidOut  : OUT    std_logic  ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -793,7 +805,7 @@ decl (Decl
 n "ValidOut"
 t "std_logic"
 o 1
-suid 27,0
+suid 31,0
 )
 )
 )
@@ -1507,6 +1519,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 434,0
+lastUid 485,0
 activeModelName "Symbol:CDM"
 )

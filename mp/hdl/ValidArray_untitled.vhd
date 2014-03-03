@@ -17,9 +17,9 @@ USE ece411.LC3b_types.all;
 ENTITY ValidArray IS
    PORT( 
       ValidOut  : OUT    std_logic;
-      DataWrite : IN     std_logic;
       Reset_L   : IN     std_logic;
-      Index     : IN     LC3B_C_INDEX
+      Index     : IN     LC3B_C_INDEX;
+      DataWrite : IN     std_logic
    );
 
 -- Declarations
